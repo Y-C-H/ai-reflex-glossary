@@ -1,0 +1,4686 @@
+{
+  "schemaVersion": 1,
+  "version": "2026.06.30.2",
+  "publishedAt": "2026-06-30T00:00:00+09:00",
+  "releaseNotes": [
+    "기존 노션 사전 211개 항목을 초기 데이터로 포함",
+    "자동 업데이트·개인 사전·중복 약어 지원 구조 추가",
+    "한글·영문·검색 키워드 통합 검색 지원",
+    "벨만 방정식 등 영어 이름이 누락된 기존 항목 보강",
+    "내장 사전 업데이트 시 기존 설치본 자동 마이그레이션"
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "key": "Agent",
+      "aliases": [
+        "Agent"
+      ],
+      "full": "Agent",
+      "korean": "에이전트",
+      "definition": "인식하고 행동하는 객체",
+      "oneLine": "인식하고 행동하는 객체",
+      "categories": [
+        "에이전트"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21 (에이전트)",
+      "status": "published",
+      "stability": "reviewed",
+      "lastReviewed": "2026-06-30",
+      "detect": false,
+      "interviewAnswer": "",
+      "searchTerms": [
+        "에이전트",
+        "intelligent agent"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "PEAS",
+      "aliases": [
+        "PEAS"
+      ],
+      "full": "Performance Measure, Environment, Actuators, Sensors",
+      "korean": "성능 척도·환경·구동기·센서",
+      "definition": "에이전트의 작업 수행 시 고려해야 할 4가지 요소",
+      "oneLine": "에이전트의 작업 수행 시 고려해야 할 4가지 요소",
+      "categories": [
+        "에이전트"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 3,
+      "key": "DFS",
+      "aliases": [
+        "DFS"
+      ],
+      "full": "Depth-First Search",
+      "korean": "깊이 우선 탐색",
+      "definition": "가능한 깊게 Tree를 탐색",
+      "oneLine": "가능한 깊게 Tree를 탐색",
+      "categories": [
+        "탐색 이론",
+        "알고리즘"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 4,
+      "key": "BFS",
+      "aliases": [
+        "BFS"
+      ],
+      "full": "Breadth-First Search",
+      "korean": "너비 우선 탐색",
+      "definition": "인접한 모든 node를 탐색한 후 다음 층을 탐색",
+      "oneLine": "인접한 모든 node를 탐색한 후 다음 층을 탐색",
+      "categories": [
+        "탐색 이론",
+        "알고리즘"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 5,
+      "key": "UCS",
+      "aliases": [
+        "UCS"
+      ],
+      "full": "Uniform-Cost Search",
+      "korean": "균일 비용 탐색",
+      "definition": "비용이 다른 경로 탐색 시, 최소 비용 경로 찾기",
+      "oneLine": "비용이 다른 경로 탐색 시, 최소 비용 경로 찾기",
+      "categories": [
+        "탐색 이론",
+        "알고리즘"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 6,
+      "key": "Heuristic",
+      "aliases": [
+        "Heuristic"
+      ],
+      "full": "Heuristic Function",
+      "korean": "휴리스틱",
+      "definition": "State가 얼마나 Goal에 가까운지 추정하는 함수",
+      "oneLine": "State가 얼마나 Goal에 가까운지 추정하는 함수",
+      "categories": [
+        "탐색 이론",
+        "휴리스틱"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21 (휴리스틱)",
+      "status": "published",
+      "stability": "reviewed",
+      "lastReviewed": "2026-06-30",
+      "detect": false,
+      "interviewAnswer": "",
+      "searchTerms": [
+        "휴리스틱 함수",
+        "heuristic"
+      ]
+    },
+    {
+      "id": 7,
+      "key": "GBFS",
+      "aliases": [
+        "GBFS",
+        "Greedy Search",
+        "Greedy Best First Search"
+      ],
+      "full": "Greedy Best-First Search",
+      "korean": "탐욕적 최선 우선 탐색",
+      "definition": "휴리스틱이 최소인 node를 먼저 확장",
+      "oneLine": "휴리스틱이 최소인 node를 먼저 확장",
+      "categories": [
+        "탐색 이론",
+        "알고리즘"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21 (탐욕 탐색)",
+      "status": "published",
+      "stability": "reviewed",
+      "lastReviewed": "2026-06-30",
+      "detect": false,
+      "interviewAnswer": "",
+      "searchTerms": [
+        "탐욕 탐색",
+        "탐욕적 탐색"
+      ]
+    },
+    {
+      "id": 8,
+      "key": "A* Search",
+      "aliases": [
+        "A* Search"
+      ],
+      "full": "A* Search",
+      "korean": "",
+      "definition": "f = h + g가 최소인 node부터 확장",
+      "oneLine": "f = h + g가 최소인 node부터 확장",
+      "categories": [
+        "탐색 이론",
+        "알고리즘"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 9,
+      "key": "Utility function",
+      "aliases": [
+        "Utility function",
+        "Reward function"
+      ],
+      "full": "Utility function",
+      "korean": "",
+      "definition": "에이전트 행동의 성공 평가 기준",
+      "oneLine": "에이전트 행동의 성공 평가 기준",
+      "categories": [
+        "에이전트"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 10,
+      "key": "Local Search",
+      "aliases": [
+        "Local Search"
+      ],
+      "full": "Local Search",
+      "korean": "국소 탐색",
+      "definition": "전체 탐색 공간을 고려하는 대신, 현재 상태에서 더 나은 해를 찾는 방식",
+      "oneLine": "전체 탐색 공간을 고려하는 대신, 현재 상태에서 더 나은 해를 찾는 방식",
+      "categories": [
+        "탐색 이론",
+        "알고리즘"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "reviewed",
+      "lastReviewed": "2026-06-30",
+      "detect": false,
+      "interviewAnswer": "",
+      "searchTerms": [
+        "지역 탐색",
+        "국부 탐색"
+      ]
+    },
+    {
+      "id": 11,
+      "key": "Greedy Local Search",
+      "aliases": [
+        "Greedy Local Search"
+      ],
+      "full": "Greedy Local Search",
+      "korean": "",
+      "definition": "현재 상태에서 시작하여, 더 좋은 상태로 이동하는 기법",
+      "oneLine": "현재 상태에서 시작하여, 더 좋은 상태로 이동하는 기법",
+      "categories": [
+        "탐색 이론",
+        "알고리즘"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 12,
+      "key": "Simulated Annealing",
+      "aliases": [
+        "Simulated Annealing",
+        "SA"
+      ],
+      "full": "Simulated Annealing",
+      "korean": "모의 담금질",
+      "definition": "Stochastic Hill-Climbing의 변형. \n나쁜 방향 move를 허용하되, 그 빈도는 점점 줄어든다.",
+      "oneLine": "Stochastic Hill-Climbing의 변형.",
+      "categories": [
+        "탐색 이론",
+        "알고리즘"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "reviewed",
+      "lastReviewed": "2026-06-30",
+      "detect": false,
+      "interviewAnswer": "",
+      "searchTerms": [
+        "시뮬레이티드 어닐링",
+        "담금질 기법"
+      ]
+    },
+    {
+      "id": 13,
+      "key": "GD",
+      "aliases": [
+        "GD"
+      ],
+      "full": "Gradient descent",
+      "korean": "경사하강법",
+      "definition": "목적 함수를 최소화하기 위해, 기울기(gradient)의 반대 방향으로 파라미터를 업데이트하는 방법. 손실 함수(Loss Function)를 줄이는 데 사용된다.",
+      "oneLine": "목적 함수를 최소화하기 위해, 기울기(gradient)의 반대 방향으로 파라미터를 업데이트하는 방법.",
+      "categories": [
+        "딥러닝",
+        "머신러닝",
+        "최적화"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Gradient_descent",
+      "rawTerm": "https://en.wikipedia.org/wiki/Gradient_descent (경사하강법)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 14,
+      "key": "Backtracking",
+      "aliases": [],
+      "full": "Backtracking",
+      "korean": "",
+      "definition": "가능한 모든 경우를 재귀적으로 탐색하다가, 조건에 맞지 않으면 즉시 이전 단계로 되돌아가 다른 경로를 탐색하는 문제 해결 기법",
+      "oneLine": "가능한 모든 경우를 재귀적으로 탐색하다가, 조건에 맞지 않으면 즉시 이전 단계로 되돌아가 다른 경로를 탐색하는 문제 해결 기법",
+      "categories": [
+        "탐색 이론",
+        "알고리즘"
+      ],
+      "source": "",
+      "rawTerm": "Backtracking",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 15,
+      "key": "Minimax",
+      "aliases": [
+        "Minimax"
+      ],
+      "full": "Minimax Algorithm",
+      "korean": "미니맥스 알고리즘",
+      "definition": "두 명의 플레이어(max vs. min)가 모두 최선의 수를 둘 때, 최적 행동을 선택",
+      "oneLine": "두 명의 플레이어(max vs. min)가 모두 최선의 수를 둘 때, 최적 행동을 선택",
+      "categories": [
+        "탐색 이론",
+        "알고리즘"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "reviewed",
+      "lastReviewed": "2026-06-30",
+      "detect": false,
+      "interviewAnswer": "",
+      "searchTerms": [
+        "미니맥스",
+        "min-max"
+      ]
+    },
+    {
+      "id": 16,
+      "key": "Alpha-Beta Pruning",
+      "aliases": [
+        "Alpha-Beta Pruning",
+        "Alpha Beta Pruning"
+      ],
+      "full": "Alpha-Beta Pruning",
+      "korean": "알파-베타 가지치기",
+      "definition": "Minimax 탐색에서 불필요한 가지를 잘라내어 탐색 속도를 높이는 기법.",
+      "oneLine": "Minimax 탐색에서 불필요한 가지를 잘라내어 탐색 속도를 높이는 기법.",
+      "categories": [
+        "탐색 이론",
+        "알고리즘"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "reviewed",
+      "lastReviewed": "2026-06-30",
+      "detect": false,
+      "interviewAnswer": "",
+      "searchTerms": [
+        "알파베타 가지치기",
+        "α-β pruning"
+      ]
+    },
+    {
+      "id": 17,
+      "key": "MCTS",
+      "aliases": [
+        "MCTS"
+      ],
+      "full": "Monte Carlo Tree Search",
+      "korean": "몬테카를로 트리 탐색",
+      "definition": "현 상태에서 무작위 시뮬레이션을 여러 번 실행, 승률을 추정, 그 결과를 바탕으로 탐색 트리를 확장해 최적의 수를 선택. UCB1 공식 사용.",
+      "oneLine": "현 상태에서 무작위 시뮬레이션을 여러 번 실행, 승률을 추정, 그 결과를 바탕으로 탐색 트리를 확장해 최적의 수를 선택.",
+      "categories": [
+        "탐색 이론",
+        "알고리즘"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 18,
+      "key": "UCB1",
+      "aliases": [
+        "UCB1"
+      ],
+      "full": "Upper Confidence Bound 1",
+      "korean": "상한 신뢰 구간 알고리즘",
+      "definition": "Exploration(정보 획득) & Exploitation(추정 정확화) 사이의 균형을 맞추는 알고리즘",
+      "oneLine": "Exploration(정보 획득) & Exploitation(추정 정확화) 사이의 균형을 맞추는 알고리즘",
+      "categories": [
+        "탐색 이론",
+        "휴리스틱"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 19,
+      "key": "Expectimax",
+      "aliases": [
+        "Expectimax",
+        "Expectimax Search"
+      ],
+      "full": "Expectimax Search",
+      "korean": "기댓값 최대화 탐색",
+      "definition": "기댓값이 최대인 child node 선택",
+      "oneLine": "기댓값이 최대인 child node 선택",
+      "categories": [
+        "탐색 이론",
+        "알고리즘"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "reviewed",
+      "lastReviewed": "2026-06-30",
+      "detect": false,
+      "interviewAnswer": "",
+      "searchTerms": [
+        "기대값 최대화 탐색",
+        "expectiminimax"
+      ]
+    },
+    {
+      "id": 20,
+      "key": "MDP",
+      "aliases": [
+        "MDP"
+      ],
+      "full": "Markov Decision Process",
+      "korean": "마르코프 결정 과정",
+      "definition": "Non-deterministic & fully observable 환경에서, 최적의 결정을 내리는 framework.",
+      "oneLine": "Non-deterministic & fully observable 환경에서, 최적의 결정을 내리는 framework.",
+      "categories": [
+        "강화학습"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 21,
+      "key": "Bellman Equation",
+      "aliases": [
+        "Bellman Equation"
+      ],
+      "full": "Bellman Equation",
+      "korean": "벨만 방정식",
+      "definition": "state의 value가 (보상 + 다음 state value의 기댓값)으로 재귀적으로 표현된 공식",
+      "oneLine": "state의 value가 (보상 + 다음 state value의 기댓값)으로 재귀적으로 표현된 공식",
+      "categories": [
+        "강화학습"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21 (벨만 방정식)",
+      "status": "published",
+      "stability": "reviewed",
+      "lastReviewed": "2026-06-30",
+      "detect": false,
+      "interviewAnswer": "",
+      "searchTerms": [
+        "Bellman",
+        "벨만",
+        "벨만식",
+        "Bellman equations"
+      ]
+    },
+    {
+      "id": 22,
+      "key": "SSP",
+      "aliases": [
+        "SSP"
+      ],
+      "full": "Standard Search Problem",
+      "korean": "",
+      "definition": "state space를 atomic 단위로 취급, 내부 구조 없이 state 간 전이와 goal 도달 여부로만 문제를 정의하는 탐색 모델.",
+      "oneLine": "state space를 atomic 단위로 취급, 내부 구조 없이 state 간 전이와 goal 도달 여부로만 문제를 정의하는 탐색 모델.",
+      "categories": [
+        "탐색 이론",
+        "탐색 문제"
+      ],
+      "source": "",
+      "rawTerm": "Standard Search Problem",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 23,
+      "key": "CSP",
+      "aliases": [
+        "CSP"
+      ],
+      "full": "Constraint Satisfaction Problem",
+      "korean": "제약 충족 문제",
+      "definition": "문제를 변수, 각 변수의 도메인, 그리고 제약 조건의 삼중 구조 (X, D, C)로 정의하여, 모든 변수에 값이 할당되면서 제약을 만족하는 해를 찾는 문제. 일반 탐색 문제보다 구조적 정보를 활용해 효율적 탐색이 가능하다.",
+      "oneLine": "문제를 변수, 각 변수의 도메인, 그리고 제약 조건의 삼중 구조 (X, D, C)로 정의하여, 모든 변수에 값이 할당되면서 제약을 만족하는 해를 찾는 문제.",
+      "categories": [
+        "논리학",
+        "탐색 이론",
+        "CSP",
+        "탐색 문제"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 24,
+      "key": "MRV Heuristic",
+      "aliases": [
+        "MRV Heuristic"
+      ],
+      "full": "Minimum Remaining Values Heuristic",
+      "korean": "",
+      "definition": "가능한 값이 가장 적은 변수를 선택",
+      "oneLine": "가능한 값이 가장 적은 변수를 선택",
+      "categories": [
+        "논리학",
+        "탐색 이론",
+        "CSP",
+        "휴리스틱"
+      ],
+      "source": "",
+      "rawTerm": "Minimum Remaining Values Heuristic",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 25,
+      "key": "Degree Heuristic",
+      "aliases": [],
+      "full": "Degree Heuristic",
+      "korean": "",
+      "definition": "가장 많은 constraints를 가지는 변수를 선택",
+      "oneLine": "가장 많은 constraints를 가지는 변수를 선택",
+      "categories": [
+        "논리학",
+        "탐색 이론",
+        "CSP",
+        "휴리스틱"
+      ],
+      "source": "",
+      "rawTerm": "Degree Heuristic",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 26,
+      "key": "LCV Heuristic",
+      "aliases": [
+        "LCV Heuristic"
+      ],
+      "full": "Least Constraining Value Heuristic",
+      "korean": "",
+      "definition": "이웃 변수들의 가능한 선택지를 최대한 적게 제거하는 값을 선택",
+      "oneLine": "이웃 변수들의 가능한 선택지를 최대한 적게 제거하는 값을 선택",
+      "categories": [
+        "논리학",
+        "탐색 이론",
+        "CSP",
+        "휴리스틱"
+      ],
+      "source": "",
+      "rawTerm": "Least Constraining Value Heuristic",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 27,
+      "key": "PL",
+      "aliases": [
+        "PL"
+      ],
+      "full": "Propositional Logic",
+      "korean": "명제 논리",
+      "definition": "명제 변수를 사용하여 문장을 구성. 각 명제가 T or F만을 값으로 가지는 논리 체계.",
+      "oneLine": "명제 변수를 사용하여 문장을 구성. 각 명제가 T or F만을 값으로 가지는 논리 체계.",
+      "categories": [
+        "논리학",
+        "논리 체계"
+      ],
+      "source": "",
+      "rawTerm": "Propositional Logic (명제 논리)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 28,
+      "key": "FOL",
+      "aliases": [
+        "FOL"
+      ],
+      "full": "First-Order Logic",
+      "korean": "1차 논리",
+      "definition": "PL을 확장한 더 강력한 논리 체계. objects(변수), functions(함수), 술어(predicate)를 표현할 수 있다. “모든 사람은 죽는다”와 같은 일반화된 명제를 다룰 수 있다.",
+      "oneLine": "PL을 확장한 더 강력한 논리 체계. objects(변수), functions(함수), 술어(predicate)를 표현할 수 있다. “모든 사람은 죽는다”와 같은 일반화된 명제를 다룰 수 있다.",
+      "categories": [
+        "논리학",
+        "논리 체계"
+      ],
+      "source": "",
+      "rawTerm": "First-Order Logic (1차 논리)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 29,
+      "key": "Sound Algorithm",
+      "aliases": [],
+      "full": "Sound Algorithm",
+      "korean": "",
+      "definition": "알고리즘이 도출한 모든 결론이 실제로 참인 경우. 즉, 잘못된 결론(False positive)을 절대 내지 않는 추론 절차.",
+      "oneLine": "알고리즘이 도출한 모든 결론이 실제로 참인 경우.",
+      "categories": [
+        "논리학",
+        "추론"
+      ],
+      "source": "",
+      "rawTerm": "Sound Algorithm",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 30,
+      "key": "Complete Algorithm",
+      "aliases": [],
+      "full": "Complete Algorithm",
+      "korean": "",
+      "definition": "참인 모든 결론을 반드시 도출할 수 있는 경우. 즉, 참이지만 놓치는 결론(False negative)이 없는 추론 절차.",
+      "oneLine": "참인 모든 결론을 반드시 도출할 수 있는 경우.",
+      "categories": [
+        "논리학",
+        "추론"
+      ],
+      "source": "",
+      "rawTerm": "Complete Algorithm",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 31,
+      "key": "KB",
+      "aliases": [
+        "KB"
+      ],
+      "full": "Knowledge Base",
+      "korean": "",
+      "definition": "형식 언어(formal language)로 표현된 문장들의 집합. 에이전트가 사실(facts), 규칙(rules)을 저장하고, 추론 알고리즘을 통해 새로운 지식을 도출하는 기반이 된다.",
+      "oneLine": "형식 언어(formal language)로 표현된 문장들의 집합.",
+      "categories": [
+        "논리학",
+        "에이전트"
+      ],
+      "source": "",
+      "rawTerm": "Knowledge Base",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 32,
+      "key": "FC",
+      "aliases": [
+        "FC"
+      ],
+      "full": "Forward Chaining",
+      "korean": "전향 추론",
+      "definition": "KB에 있는 사실로부터 시작해, rules을 적용해 새로운 facts을 점진적으로 도출하고 목표(query)에 도달하는 방식의 추론 기법. 모든 가능한 결론을 탐색한다.",
+      "oneLine": "KB에 있는 사실로부터 시작해, rules을 적용해 새로운 facts을 점진적으로 도출하고 목표(query)에 도달하는 방식의 추론 기법.",
+      "categories": [
+        "논리학",
+        "추론"
+      ],
+      "source": "",
+      "rawTerm": "Forward Chaining (전향 추론)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 33,
+      "key": "SAT",
+      "aliases": [
+        "SAT"
+      ],
+      "full": "Satisfiability",
+      "korean": "",
+      "definition": "어떤 문장이 최소 1개의 세계에서 True이면 그것은 Satisfiable\n그것이 모든 model에서 False라면 그것은 Un-satisfiable",
+      "oneLine": "어떤 문장이 최소 1개의 세계에서 True이면 그것은 Satisfiable 그것이 모든 model에서 False라면 그것은 Un-satisfiable",
+      "categories": [
+        "논리학"
+      ],
+      "source": "",
+      "rawTerm": "Satisfiability",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 34,
+      "key": "CNF",
+      "aliases": [
+        "CNF"
+      ],
+      "full": "Conjunctive normal form",
+      "korean": "",
+      "definition": "논리식을 여러 개의 절(clause)의 논리곱(AND)으로 표현한 형태. 각 절은 리터럴(literal)의 논리합(OR)으로 구성된다. SAT solver와 같은 자동 추론 알고리즘에서 표준 입력 형식으로 사용된다.",
+      "oneLine": "논리식을 여러 개의 절(clause)의 논리곱(AND)으로 표현한 형태.",
+      "categories": [
+        "논리학",
+        "표기법"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Conjunctive_normal_form",
+      "rawTerm": "https://en.wikipedia.org/wiki/Conjunctive_normal_form",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 35,
+      "key": "DPLL",
+      "aliases": [
+        "DPLL",
+        "DPPL Algorithm"
+      ],
+      "full": "Davis–Putnam–Logemann–Loveland Algorithm",
+      "korean": "명제 논리 만족 가능성 판정 알고리즘",
+      "definition": "CNF 형태의 논리식을 만족하는 해(Satisfiability)를 찾기 위한 완전 탐색 기반 알고리즘. 분기(Branching)와 단정 규칙(Unit propagation, Pure literal elimination)을 적용해 불필요한 탐색을 줄여 효율적으로 해를 판별한다. 현대 SAT solver의 기반이 되는 절차이다.",
+      "oneLine": "CNF 형태의 논리식을 만족하는 해(Satisfiability)를 찾기 위한 완전 탐색 기반 알고리즘.",
+      "categories": [
+        "논리학",
+        "알고리즘"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 36,
+      "key": "BNF",
+      "aliases": [
+        "BNF"
+      ],
+      "full": "Backus–Naur Form",
+      "korean": "백우스-나우어 표기법",
+      "definition": "프로그래밍 언어·논리식 등의 문법을 형식적으로 정의하기 위한 표기법. 비단말 기호, 단말 기호, 생성 규칙을 사용하여 문장의 구조를 계층적으로 표현한다.",
+      "oneLine": "프로그래밍 언어·논리식 등의 문법을 형식적으로 정의하기 위한 표기법.",
+      "categories": [
+        "논리학",
+        "표기법"
+      ],
+      "source": "",
+      "rawTerm": "Backus–Naur Form (백우스-나우어 표기법)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 37,
+      "key": "LTL",
+      "aliases": [
+        "LTL"
+      ],
+      "full": "Linear Temporal Logic",
+      "korean": "선형 시간 논리",
+      "definition": "시간에 따라 변하는 상태들의 선형적인 순서를 다루는 논리 체계. “항상(G)”, “언젠가(F)”, “다음(○)”, “까지(U)” 등의 시간 연산자를 사용하여 시스템이 시간이 흐르며 만족해야 하는 속성을 표현한다.",
+      "oneLine": "시간에 따라 변하는 상태들의 선형적인 순서를 다루는 논리 체계.",
+      "categories": [
+        "논리학",
+        "논리 체계"
+      ],
+      "source": "",
+      "rawTerm": "Linear Temporal Logic (선형 시간 논리)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 38,
+      "key": "Bayes-nets",
+      "aliases": [
+        "Bayes-nets",
+        "Belief Networks",
+        "BN"
+      ],
+      "full": "Bayesian Networks",
+      "korean": "",
+      "definition": "확률변수 간의 조건부 의존 관계를 표현하는, 방향성 비순환 그래프. 각 node는 확률 변수, edge는 조건부 의존성을 나타낸다.\n\nSimple & local distributions (조건부확률)을 사용하여, Complex joint distributions (models)을 설명하는 기법.",
+      "oneLine": "확률변수 간의 조건부 의존 관계를 표현하는, 방향성 비순환 그래프.",
+      "categories": [
+        "확률학",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Bayesian Networks",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 39,
+      "key": "Naïve Bayes Model",
+      "aliases": [],
+      "full": "Naïve Bayes Model",
+      "korean": "",
+      "definition": "Bayesian Classifier의 단순화된 형태. 주어진 class 조건에서 모든 features이 서로 독립이라 가정하고 확률 계산을 수행한다.",
+      "oneLine": "Bayesian Classifier의 단순화된 형태.",
+      "categories": [
+        "확률학",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Naïve Bayes Model",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 40,
+      "key": "SL",
+      "aliases": [
+        "SL"
+      ],
+      "full": "Supervised Learning",
+      "korean": "지도학습",
+      "definition": "input data와 정답(label)이 함께 주어진 학습 데이터로부터 model을 학습시키는 방법. 학습된 모델은 new input에 대해 올바른 출력을 예측할 수 있도록 일반화된다. 분류(Classification)와 회귀(Regression)가 대표적 예시이다.",
+      "oneLine": "input data와 정답(label)이 함께 주어진 학습 데이터로부터 model을 학습시키는 방법.",
+      "categories": [
+        "머신러닝",
+        "학습",
+        "학습기법"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21 (지도 학습)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 41,
+      "key": "RL",
+      "aliases": [
+        "RL"
+      ],
+      "full": "Reinforcement learning",
+      "korean": "강화학습",
+      "definition": "에이전트가 환경과 상호작용하며 보상(reward)을 최대화하는 행동 전략(policy)을 학습하는 방법. 정답(label)은 주어지지 않고, 시도와 피드백(보상/벌점)을 통해 최적의 행동을 찾아간다. MDP와 벨만 방정식을 기반으로 하며, Q-learning, Policy Gradient 등이 대표 알고리즘이다.",
+      "oneLine": "에이전트가 환경과 상호작용하며 보상(reward)을 최대화하는 행동 전략(policy)을 학습하는 방법.",
+      "categories": [
+        "강화학습",
+        "머신러닝",
+        "학습"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Reinforcement_learning",
+      "rawTerm": "https://en.wikipedia.org/wiki/Reinforcement_learning (강화학습)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 42,
+      "key": "Training Loss",
+      "aliases": [
+        "Training Loss"
+      ],
+      "full": "Training Loss",
+      "korean": "경험 손실",
+      "definition": "주어진 학습 데이터셋에서 모델의 예측과 실제 정답 간의 오차를 측정한 값. 전체 데이터 분포가 아닌 관측된 표본 데이터에 대한 손실로, 경험적 위험 최소화(ERM)의 핵심 개념이다.",
+      "oneLine": "주어진 학습 데이터셋에서 모델의 예측과 실제 정답 간의 오차를 측정한 값.",
+      "categories": [
+        "머신러닝",
+        "손실 함수",
+        "최적화"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21 (경험 손실)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 43,
+      "key": "Overfitting",
+      "aliases": [],
+      "full": "Overfitting",
+      "korean": "",
+      "definition": "모델이 훈련 데이터에 지나치게 특화되는 현상",
+      "oneLine": "모델이 훈련 데이터에 지나치게 특화되는 현상",
+      "categories": [
+        "머신러닝"
+      ],
+      "source": "",
+      "rawTerm": "Overfitting",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 44,
+      "key": "Variance (분산)",
+      "aliases": [
+        "Variance (분산)"
+      ],
+      "full": "Bias",
+      "korean": "편향",
+      "definition": "학습된 모델이 데이터의 복잡한 패턴을 충분히 학습하지 못하고, 지나치게 단순한 가정으로 인해 일관되게 오차를 내는 경향. 일반적으로 underfitting 상황에서 발생하며, 더 복잡한 모델이나 적절한 특징 확장이 필요하다.",
+      "oneLine": "학습된 모델이 데이터의 복잡한 패턴을 충분히 학습하지 못하고, 지나치게 단순한 가정으로 인해 일관되게 오차를 내는 경향.",
+      "categories": [
+        "머신러닝",
+        "일반화"
+      ],
+      "source": "",
+      "rawTerm": "Bias (편향)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 45,
+      "key": "Model Parameters",
+      "aliases": [
+        "Model Parameters"
+      ],
+      "full": "Parameters",
+      "korean": "",
+      "definition": "데이터에서 학습되는 값. 모델이 예측을 수행하는 데 필요한 값으로, 예를 들어 선형 회귀의 가중치와 bias, 신경망의 가중치와 bias 등이 이에 해당한다.",
+      "oneLine": "데이터에서 학습되는 값. 모델이 예측을 수행하는 데 필요한 값으로, 예를 들어 선형 회귀의 가중치와 bias, 신경망의 가중치와 bias 등이 이에 해당한다.",
+      "categories": [
+        "머신러닝",
+        "학습"
+      ],
+      "source": "",
+      "rawTerm": "Parameters",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 46,
+      "key": "Hyperparameters",
+      "aliases": [],
+      "full": "Hyperparameters",
+      "korean": "",
+      "definition": "학습자가 직접 사전에 설정해야 하는 값으로, 학습 과정이나 모델의 구조를 제어한다. 예를 들어 학습률, 정규화 계수, 은닉층 크기, 결정 트리의 깊이 등이 이에 해당한다.",
+      "oneLine": "학습자가 직접 사전에 설정해야 하는 값으로, 학습 과정이나 모델의 구조를 제어한다.",
+      "categories": [
+        "머신러닝",
+        "학습"
+      ],
+      "source": "",
+      "rawTerm": "Hyperparameters",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 47,
+      "key": "Model Testing",
+      "aliases": [
+        "Model Testing"
+      ],
+      "full": "Model Testing",
+      "korean": "",
+      "definition": "학습된 모델이 새로운 데이터(test data)에 대해 얼마나 잘 일반화하는지를 측정하는 과정. 손실 함수(Test Loss), 정확도(Accuracy), 정밀도/재현율 등 다양한 지표를 사용하여 모델의 성능을 평가한다.",
+      "oneLine": "학습된 모델이 새로운 데이터(test data)에 대해 얼마나 잘 일반화하는지를 측정하는 과정.",
+      "categories": [
+        "머신러닝",
+        "평가"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 48,
+      "key": "Baseline Model",
+      "aliases": [
+        "Baseline",
+        "Baseline Model"
+      ],
+      "full": "Baseline Model",
+      "korean": "기준선 모델",
+      "definition": "학습된 모델의 성능을 비교하기 위해 설정하는 기준선 모델. 보통 매우 단순하거나 기존에 성능이 입증된 모델을 사용하며, 새로운 모델이 이 기준보다 나아야 유의미하다고 판단할 수 있다.",
+      "oneLine": "학습된 모델의 성능을 비교하기 위해 설정하는 기준선 모델.",
+      "categories": [
+        "머신러닝",
+        "평가"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "reviewed",
+      "lastReviewed": "2026-06-30",
+      "detect": false,
+      "interviewAnswer": "",
+      "searchTerms": [
+        "베이스라인 모델",
+        "기준 모델"
+      ]
+    },
+    {
+      "id": 49,
+      "key": "Linear Regression",
+      "aliases": [
+        "Linear Regression"
+      ],
+      "full": "Linear Regression",
+      "korean": "선형 회귀",
+      "definition": "입력 변수(feature)와 출력 변수(target) 사이의 관계를 선형 방정식으로 모델링하는 회귀 기법. weight와 bias를 학습하여 예측값과 실제값의 차이를 최소화한다.",
+      "oneLine": "입력 변수(feature)와 출력 변수(target) 사이의 관계를 선형 방정식으로 모델링하는 회귀 기법.",
+      "categories": [
+        "머신러닝",
+        "회귀"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21 (선형 회귀)",
+      "status": "published",
+      "stability": "reviewed",
+      "lastReviewed": "2026-06-30",
+      "detect": false,
+      "interviewAnswer": "",
+      "searchTerms": [
+        "선형회귀"
+      ]
+    },
+    {
+      "id": 50,
+      "key": "DT",
+      "aliases": [
+        "DT"
+      ],
+      "full": "Decision Tree",
+      "korean": "의사결정나무",
+      "definition": "데이터를 조건문(if-else) 기반의 tree 구조로 분할하여 예측하는 모델. leaf node는 최종 예측값을 나타낸다. 분류(Classification)와 회귀(Regression) 모두에 사용된다.",
+      "oneLine": "데이터를 조건문(if-else) 기반의 tree 구조로 분할하여 예측하는 모델.",
+      "categories": [
+        "머신러닝",
+        "지도학습"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21 (결정 트리)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 51,
+      "key": "분류",
+      "aliases": [],
+      "full": "Classification",
+      "korean": "분류",
+      "definition": "입력 데이터가 속하는 범주(class, label)를 예측하는 문제. 출력은 이산적(discrete)이다. 예시로 스팸 메일 판별, 이미지 속 객체 인식 등이 있다.",
+      "oneLine": "입력 데이터가 속하는 범주(class, label)를 예측하는 문제.",
+      "categories": [
+        "머신러닝",
+        "지도학습"
+      ],
+      "source": "",
+      "rawTerm": "Classification (분류)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 52,
+      "key": "회귀",
+      "aliases": [],
+      "full": "Regression",
+      "korean": "회귀",
+      "definition": "입력 데이터로부터 연속적인 수치 값을 예측하는 문제. 출력은 실수(real value)이다. 예시로 주택 가격 예측, 온도 예측 등이 있다.",
+      "oneLine": "입력 데이터로부터 연속적인 수치 값을 예측하는 문제.",
+      "categories": [
+        "머신러닝",
+        "지도학습"
+      ],
+      "source": "",
+      "rawTerm": "Regression (회귀)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 53,
+      "key": "SVM",
+      "aliases": [
+        "SVM"
+      ],
+      "full": "Support Vector Machine",
+      "korean": "",
+      "definition": "Data points를 가장 잘 분류하는 초평면(hyperplane)을 찾는 알고리즘. class 사이의 margin을 최대화하여 일반화 성능을 높이며, 커널 함수를 사용해 비선형 문제도 고차원 공간에서 선형적으로 분리할 수 있다.",
+      "oneLine": "Data points를 가장 잘 분류하는 초평면(hyperplane)을 찾는 알고리즘.",
+      "categories": [
+        "머신러닝",
+        "지도학습"
+      ],
+      "source": "",
+      "rawTerm": "Support Vector Machine",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 54,
+      "key": "DL",
+      "aliases": [
+        "DL"
+      ],
+      "full": "Deep Learning",
+      "korean": "딥러닝",
+      "definition": "다층 ANN을 활용해 데이터로부터 특징을 자동 학습하는 방법론. 이미지·음성·자연어 처리 등 고차원 데이터에서 탁월한 성능을 보이며, CNN, RNN, Transformer 등이 대표적 구조이다.",
+      "oneLine": "다층 ANN을 활용해 데이터로부터 특징을 자동 학습하는 방법론.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [1] 시초 시대",
+        "머신러닝"
+      ],
+      "source": "",
+      "rawTerm": "Deep Learning (딥러닝)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 55,
+      "key": "Backprop",
+      "aliases": [
+        "Backprop"
+      ],
+      "full": "Backpropagation",
+      "korean": "역전파",
+      "definition": "순전파에서 얻은 출력과 실제 정답의 오차를 기반으로, Chain Rule을 이용해 기울기를 계산하고 이를 입력층 방향으로 전파하여 가중치를 업데이트하는 과정.\n\n신경망이 더 바른 답을 내기 위해 학습하는 방법.\n\n출력층 → 입력층 방향으로 Loss를 전파, 각 가중치가 손실에 얼마나 기여했는지를 계산하는 미분 알고리즘",
+      "oneLine": "순전파에서 얻은 출력과 실제 정답의 오차를 기반으로, Chain Rule을 이용해 기울기를 계산하고 이를 입력층 방향으로 전파하여 가중치를 업데이트하는 과정.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [2] 신경망 시대",
+        "학습",
+        "학습기법"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Backpropagation",
+      "rawTerm": "https://en.wikipedia.org/wiki/Backpropagation (역전파)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 56,
+      "key": "Activation Function",
+      "aliases": [
+        "Activation Function"
+      ],
+      "full": "Activation Function",
+      "korean": "활성화 함수",
+      "definition": "인공 신경망 뉴런의 출력에 비선형성을 추가하는 함수. 입력 신호의 가중합을 변환하여 다음 층으로 전달할 값을 결정하며, 네트워크가 복잡한 패턴을 학습할 수 있도록 돕는다.",
+      "oneLine": "인공 신경망 뉴런의 출력에 비선형성을 추가하는 함수.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [1] 시초 시대",
+        "활성화 함수"
+      ],
+      "source": "https://www.geeksforgeeks.org/machine-learning/activation-functions-neural-networks/",
+      "rawTerm": "https://www.geeksforgeeks.org/machine-learning/activation-functions-neural-networks/ (활성화 함수)",
+      "status": "published",
+      "stability": "reviewed",
+      "lastReviewed": "2026-06-30",
+      "detect": false,
+      "interviewAnswer": "",
+      "searchTerms": [
+        "활성함수",
+        "activation functions"
+      ]
+    },
+    {
+      "id": 57,
+      "key": "은닉층",
+      "aliases": [],
+      "full": "Hidden Layer",
+      "korean": "은닉층",
+      "definition": "입력층과 출력층 사이에 위치한 층. 입력 데이터를 중간 표현으로 변환하여 모델이 더 복잡한 패턴과 비선형 관계를 학습할 수 있도록 한다. 여러 개의 은닉층을 쌓으면 딥러닝 구조가 된다.",
+      "oneLine": "입력층과 출력층 사이에 위치한 층. 입력 데이터를 중간 표현으로 변환하여 모델이 더 복잡한 패턴과 비선형 관계를 학습할 수 있도록 한다. 여러 개의 은닉층을 쌓으면 딥러닝 구조가 된다.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [1] 시초 시대"
+      ],
+      "source": "",
+      "rawTerm": "Hidden Layer (은닉층)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 58,
+      "key": "Linear Combination",
+      "aliases": [
+        "Linear Combination"
+      ],
+      "full": "Weighted Sum",
+      "korean": "가중합",
+      "definition": "인공 신경망 뉴런에서 입력값에 각각의 가중치를 곱한 뒤 모두 더한 값. 활성화 함수에 전달되며, 뉴런의 출력 계산의 핵심이 된다.",
+      "oneLine": "인공 신경망 뉴런에서 입력값에 각각의 가중치를 곱한 뒤 모두 더한 값.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [1] 시초 시대",
+        "머신러닝"
+      ],
+      "source": "",
+      "rawTerm": "Weighted Sum (가중합)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 59,
+      "key": "귀납 학습",
+      "aliases": [],
+      "full": "Inductive Learning",
+      "korean": "귀납 학습",
+      "definition": "사전 지식 없이 주어진 훈련 데이터(입력–출력 예제)로부터 일반적인 규칙이나 함수를 학습하는 과정. 새로운 데이터에 대해서도 예측할 수 있도록 일반화(generalization)한다.",
+      "oneLine": "사전 지식 없이 주어진 훈련 데이터(입력–출력 예제)로부터 일반적인 규칙이나 함수를 학습하는 과정.",
+      "categories": [
+        "머신러닝",
+        "학습",
+        "학습기법"
+      ],
+      "source": "",
+      "rawTerm": "Inductive Learning (귀납 학습)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 60,
+      "key": "Information Entropy",
+      "aliases": [
+        "Information Entropy"
+      ],
+      "full": "Entropy",
+      "korean": "엔트로피",
+      "definition": "데이터의 불확실성(uncertainty) 또는 무질서도를 수치로 표현한 값. (https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21) 확률 분포가 균등할수록 엔트로피가 크며, 의사결정트리에서 분할 기준(Information Gain)으로 활용된다.",
+      "oneLine": "데이터의 불확실성(uncertainty) 또는 무질서도를 수치로 표현한 값.",
+      "categories": [
+        "머신러닝",
+        "정보이론"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Entropy_(information_theory)",
+      "rawTerm": "https://en.wikipedia.org/wiki/Entropy_(information_theory) (엔트로피)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 61,
+      "key": "Prediction Variance",
+      "aliases": [
+        "Prediction Variance"
+      ],
+      "full": "Variance",
+      "korean": "분산",
+      "definition": "학습 데이터의 작은 변동에도 모델 예측이 크게 달라지는 정도. 지나치게 복잡한 모델일수록 높으며, Overfitting의 원인이 된다.",
+      "oneLine": "학습 데이터의 작은 변동에도 모델 예측이 크게 달라지는 정도.",
+      "categories": [
+        "머신러닝",
+        "일반화"
+      ],
+      "source": "",
+      "rawTerm": "Variance (분산)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 62,
+      "key": "Ensemble Learning",
+      "aliases": [
+        "Ensemble Learning"
+      ],
+      "full": "Ensembling Methods",
+      "korean": "앙상블 기법",
+      "definition": "여러 개의 개별 모델(약한 학습기, weak learners)을 결합하여 단일 모델보다 더 높은 예측 성능과 일반화 성능을 얻는 방법.",
+      "oneLine": "여러 개의 개별 모델(약한 학습기, weak learners)을 결합하여 단일 모델보다",
+      "categories": [
+        "머신러닝",
+        "앙상블"
+      ],
+      "source": "",
+      "rawTerm": "Ensembling Methods (앙상블 기법)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 63,
+      "key": "Bayes Error",
+      "aliases": [],
+      "full": "Bayes Error",
+      "korean": "",
+      "definition": "어떤 학습 알고리즘이나 모델을 사용하더라도 줄일 수 없는 최소한의 예측 오류. 데이터 자체의 노이즈나 불확실성 때문에 발생하며, 인간이나 이상적인 분류기조차 피할 수 없다.",
+      "oneLine": "어떤 학습 알고리즘이나 모델을 사용하더라도 줄일 수 없는 최소한의 예측 오류.",
+      "categories": [
+        "머신러닝",
+        "일반화"
+      ],
+      "source": "",
+      "rawTerm": "Bayes Error",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 64,
+      "key": "Bagging",
+      "aliases": [],
+      "full": "Bagging",
+      "korean": "",
+      "definition": "독립적으로 여러 모델을 학습하고 그 평균을 내는 방법.\nVariance을 줄여 Overfitting이 완화된다.",
+      "oneLine": "독립적으로 여러 모델을 학습하고 그 평균을 내는 방법.",
+      "categories": [
+        "머신러닝",
+        "앙상블"
+      ],
+      "source": "",
+      "rawTerm": "Bagging",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 65,
+      "key": "Boosting",
+      "aliases": [],
+      "full": "Boosting",
+      "korean": "",
+      "definition": "여러 약한 학습기(Weak Learners)를 순차적으로 학습, 이전 모델이 잘못 예측한 데이터에 더 큰 가중치를 부여하여 점차 성능을 향상시키는 기법. Bias를 줄이고 강한 학습기를 만든다.",
+      "oneLine": "여러 약한 학습기(Weak Learners)를 순차적으로 학습, 이전 모델이 잘못 예측한 데이터에 더 큰 가중치를 부여하여 점차 성능을 향상시키는 기법.",
+      "categories": [
+        "머신러닝",
+        "앙상블"
+      ],
+      "source": "",
+      "rawTerm": "Boosting",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 66,
+      "key": "Perceptron",
+      "aliases": [
+        "Perceptron"
+      ],
+      "full": "Perceptron",
+      "korean": "퍼셉트론",
+      "definition": "가장 기본적인 인공 신경망 모델. input vector에 가중치를 곱하고 합산한 뒤, 활성화 함수를 적용하여 이진 분류를 수행한다. 선형적으로 구분 가능한 문제를 해결할 수 있다.\n뉴런의 초기형이다.",
+      "oneLine": "가장 기본적인 인공 신경망 모델. input vector에 가중치를 곱하고 합산한 뒤, 활성화 함수를 적용하여 이진 분류를 수행한다. 선형적으로 구분 가능한 문제를 해결할 수 있다. 뉴런의 초기형이다.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [1] 시초 시대",
+        "머신러닝",
+        "모델"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "reviewed",
+      "lastReviewed": "2026-06-30",
+      "detect": false,
+      "interviewAnswer": "",
+      "searchTerms": [
+        "단층 퍼셉트론",
+        "single-layer perceptron"
+      ]
+    },
+    {
+      "id": 67,
+      "key": "Logistic Function",
+      "aliases": [
+        "Logistic Function"
+      ],
+      "full": "Sigmoid function",
+      "korean": "",
+      "definition": "입력 값을 0..1 사이의 실수 값으로 변환하는 S자 형태의 비선형 함수. 확률처럼 해석할 수 있어 이진 분류 문제에서 출력층 활성화 함수로 자주 사용된다.",
+      "oneLine": "입력 값을 0..1 사이의 실수 값으로 변환하는 S자 형태의 비선형 함수.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [1] 시초 시대",
+        "활성화 함수"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Sigmoid_function",
+      "rawTerm": "https://en.wikipedia.org/wiki/Sigmoid_function",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 68,
+      "key": "GA",
+      "aliases": [
+        "GA"
+      ],
+      "full": "Gradient Ascent",
+      "korean": "경사상승법",
+      "definition": "목적 함수를 최대화하기 위해, 기울기(gradient)와 같은 방향으로 파라미터를 업데이트하는 방법. 로그 우도(Log-Likelihood) 최대화 등에 사용된다.",
+      "oneLine": "목적 함수를 최대화하기 위해, 기울기(gradient)와 같은 방향으로 파라미터를 업데이트하는 방법.",
+      "categories": [
+        "머신러닝",
+        "최적화"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21 (경사 상승법)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 69,
+      "key": "Artificial Neuron (인공 뉴런)",
+      "aliases": [
+        "Artificial Neuron (인공 뉴런)"
+      ],
+      "full": "Neuron",
+      "korean": "뉴런",
+      "definition": "인공 신경망의 기본 계산 단위. input value에 가중치를 곱하고 합산한 뒤, 활성화 함수를 적용하여 출력을 생성한다. 여러 뉴런이 모여 층(layer)을 이루며 복잡한 패턴을 학습할 수 있다.\nPerceptron을 포함하는 더 넓은 개념이다.",
+      "oneLine": "인공 신경망의 기본 계산 단위. input value에 가중치를 곱하고 합산한 뒤, 활성화 함수를 적용하여 출력을 생성한다. 여러 뉴런이 모여 층(layer)을 이루며 복잡한 패턴을 학습할 수 있다. Perce…",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [1] 시초 시대",
+        "머신러닝"
+      ],
+      "source": "",
+      "rawTerm": "Neuron (뉴런)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 70,
+      "key": "NN",
+      "aliases": [
+        "NN",
+        "ANN"
+      ],
+      "full": "Neural Network",
+      "korean": "신경망",
+      "definition": "여러 개의 Neuron을 층(layer) 단위로 연결한 모델. Input Layer, Hidden Layers, Output Layer으로 구성되며, 가중합과 활성화 함수를 반복적으로 적용해 복잡한 패턴을 학습할 수 있다.",
+      "oneLine": "여러 개의 Neuron을 층(layer) 단위로 연결한 모델.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [1] 시초 시대",
+        "머신러닝",
+        "모델"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21 (신경망)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 71,
+      "key": "Hypothesis",
+      "aliases": [
+        "Hypothesis",
+        "Function Approximator"
+      ],
+      "full": "Model",
+      "korean": "모델",
+      "definition": "데이터에서 학습한 규칙을 수학적 구조(함수, 확률 분포, 신경망 등)로 표현한 것. 입력을 받아 출력을 예측하거나 분류하며, 파라미터를 통해 데이터의 패턴을 내재화한다.",
+      "oneLine": "데이터에서 학습한 규칙을 수학적 구조(함수, 확률 분포, 신경망 등)로 표현한 것.",
+      "categories": [
+        "딥러닝",
+        "머신러닝",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Model (모델)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 72,
+      "key": "Batch",
+      "aliases": [],
+      "full": "Batch",
+      "korean": "",
+      "definition": "전체 학습 데이터 중 일부 샘플 묶음을 의미하며, 신경망 학습 시 한 번의 순전파(forward)와 역전파(backpropagation)에서 동시에 처리된다. 배치 크기(batch size)에 따라 학습의 안정성과 속도가 달라진다.",
+      "oneLine": "전체 학습 데이터 중 일부 샘플 묶음을 의미하며, 신경망 학습 시 한 번의 순전파(forward)와 역전파(backpropagation)에서 동시에 처리된다.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "학습",
+        "학습기법"
+      ],
+      "source": "",
+      "rawTerm": "Batch",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 73,
+      "key": "Forward Pass",
+      "aliases": [
+        "Forward Pass",
+        "Forwarding"
+      ],
+      "full": "Forward Propagation",
+      "korean": "순전파",
+      "definition": "입력 데이터가 신경망을 따라 층(layer)을 통과하며 출력으로 변환되는 과정. 각 층에서 가중합을 계산하고 활성화 함수를 적용하여 최종 예측값을 만든다.",
+      "oneLine": "입력 데이터가 신경망을 따라 층(layer)을 통과하며 출력으로 변환되는 과정.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [2] 신경망 시대",
+        "학습",
+        "학습기법"
+      ],
+      "source": "",
+      "rawTerm": "Forward Propagation (순전파)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 74,
+      "key": "Mini-batch",
+      "aliases": [],
+      "full": "Mini-batch",
+      "korean": "",
+      "definition": "전체 데이터셋을 작은 배치 단위로 나누어 학습하는 방식. 학습 효율과 일반화 성능의 균형이 좋아 가장 널리 쓰인다.",
+      "oneLine": "전체 데이터셋을 작은 배치 단위로 나누어 학습하는 방식.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "학습",
+        "학습기법"
+      ],
+      "source": "",
+      "rawTerm": "Mini-batch",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 75,
+      "key": "Full-batch",
+      "aliases": [],
+      "full": "Full-batch",
+      "korean": "",
+      "definition": "전체 학습 데이터를 한 번에 사용하여 순전파·역전파 및 파라미터 업데이트를 수행하는 방식. 계산은 안정적이지만 매우 느리고 메모리 소모가 크다.",
+      "oneLine": "전체 학습 데이터를 한 번에 사용하여 순전파·역전파 및 파라미터 업데이트를 수행하는 방식.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "학습",
+        "학습기법"
+      ],
+      "source": "",
+      "rawTerm": "Full-batch",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 76,
+      "key": "Logistic Loss",
+      "aliases": [
+        "Logistic Loss",
+        "Cross-Entropy Loss"
+      ],
+      "full": "Log Loss Function",
+      "korean": "",
+      "definition": "분류 문제에서 모델이 예측한 확률 분포와 실제 label(정답) 사이의 차이를 측정하는 손실 함수. 예측 확률이 정답에 가까울수록 손실이 작고, 틀릴수록 손실이 커진다.",
+      "oneLine": "분류 문제에서 모델이 예측한 확률 분포와 실제 label(정답) 사이의 차이를 측정하는 손실 함수.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "머신러닝",
+        "손실 함수"
+      ],
+      "source": "",
+      "rawTerm": "Log Loss Function",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 77,
+      "key": "Cost Function",
+      "aliases": [
+        "Cost Function",
+        "Objective Function"
+      ],
+      "full": "Loss Function",
+      "korean": "손실 함수",
+      "definition": "모델이 예측한 값과 실제 정답 간의 차이(loss)를 수치화한 함수.",
+      "oneLine": "모델이 예측한 값과 실제 정답 간의 차이(loss)를 수치화한 함수.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "머신러닝",
+        "손실 함수"
+      ],
+      "source": "",
+      "rawTerm": "Loss Function (손실 함수)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 78,
+      "key": "NLP",
+      "aliases": [
+        "NLP"
+      ],
+      "full": "Natural Language Processing",
+      "korean": "자연어 처리",
+      "definition": "인간의 언어를 컴퓨터가 이해하고 생성할 수 있도록 하는 기술 및 연구 분야. 형태소 분석, 구문 분석, 기계 번역, 감정 분석, 질의응답 시스템 등 다양한 응용이 포함된다.",
+      "oneLine": "인간의 언어를 컴퓨터가 이해하고 생성할 수 있도록 하는 기술 및 연구 분야.",
+      "categories": [
+        "NLP"
+      ],
+      "source": "https://namu.wiki/w/%EC%9E%90%EC%97%B0%EC%96%B4%20%EC%B2%98%EB%A6%AC",
+      "rawTerm": "https://namu.wiki/w/%EC%9E%90%EC%97%B0%EC%96%B4%20%EC%B2%98%EB%A6%AC (자연어 처리)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 79,
+      "key": "LM",
+      "aliases": [
+        "LM"
+      ],
+      "full": "Language Model",
+      "korean": "언어 모델",
+      "definition": "주어진 문장(단어 sequence)에 확률을 할당하는 모델. 자연스러울수록 높은 확률을 할당한다. 특정 문장이 얼마나 자연스러운지를 평가하거나, 다음 단어 예측·텍스트 생성에 활용된다.",
+      "oneLine": "주어진 문장(단어 sequence)에 확률을 할당하는 모델.",
+      "categories": [
+        "NLP",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Language Model (언어 모델)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 80,
+      "key": "시퀀스",
+      "aliases": [],
+      "full": "Sequence",
+      "korean": "시퀀스",
+      "definition": "순서가 중요한 데이터의 집합으로, 각 요소가 이전 요소와의 순서적 관계를 가진다. 문장(단어 시퀀스), 음성 신호, 시계열 데이터 등이 이에 해당한다.",
+      "oneLine": "순서가 중요한 데이터의 집합으로, 각 요소가 이전 요소와의 순서적 관계를 가진다.",
+      "categories": [
+        "NLP"
+      ],
+      "source": "",
+      "rawTerm": "Sequence (시퀀스)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 81,
+      "key": "Word Vector Representation",
+      "aliases": [
+        "Word Vector Representation"
+      ],
+      "full": "Word Vector Representation",
+      "korean": "",
+      "definition": "단어를 고차원 One-hot vector가 아닌, 의미적으로 유사한 단어들이 가까운 위치에 놓이도록 학습된 저차원 연속 벡터로 표현하는 방법. 단어 간 의미적 관계를 수치적으로 모델링할 수 있다.",
+      "oneLine": "단어를 고차원 One-hot vector가 아닌, 의미적으로 유사한 단어들이 가까운 위치에 놓이도록 학습된 저차원 연속 벡터로 표현하는 방법.",
+      "categories": [
+        "NLP"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 82,
+      "key": "SSL",
+      "aliases": [
+        "SSL"
+      ],
+      "full": "Self-Supervised Learning",
+      "korean": "자기지도학습",
+      "definition": "입력 데이터의 일부를 가려 놓고, 나머지 정보로 그것을 예측하도록 학습하는 방식. 별도의 label이 필요 없으며, 대규모 비정형 데이터(텍스트, 이미지, 음성)에서 강력한 표현 학습을 가능하게 한다.",
+      "oneLine": "입력 데이터의 일부를 가려 놓고, 나머지 정보로 그것을 예측하도록 학습하는 방식.",
+      "categories": [
+        "딥러닝",
+        "머신러닝",
+        "학습",
+        "학습기법"
+      ],
+      "source": "",
+      "rawTerm": "Self-Supervised Learning (자기지도학습)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 83,
+      "key": "NLM",
+      "aliases": [
+        "NLM"
+      ],
+      "full": "Neural Language Model",
+      "korean": "신경망 언어 모델",
+      "definition": "신경망(ANN)을 활용해 문장 내 단어들의 확률 분포를 모델링하는 언어 모델(LM). 단어의 맥락(Context)을 고려하여 다음 단어 예측이나 문장 생성에 사용된다.",
+      "oneLine": "신경망(ANN)을 활용해 문장 내 단어들의 확률 분포를 모델링하는 언어 모델(LM).",
+      "categories": [
+        "NLP",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Neural Language Model (신경망 언어 모델)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 84,
+      "key": "FFNN",
+      "aliases": [
+        "FFNN"
+      ],
+      "full": "Feedforward neural network",
+      "korean": "",
+      "definition": "정보가 입력층 → 은닉층 → 출력층으로 한 방향으로만 흐르는 기본적인 신경망 구조. 시퀀스 정보를 직접 다루기에는 한계가 있다.",
+      "oneLine": "정보가 입력층 → 은닉층 → 출력층으로 한 방향으로만 흐르는 기본적인 신경망 구조.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "모델",
+        "신경망 구조"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Feedforward_neural_network",
+      "rawTerm": "https://en.wikipedia.org/wiki/Feedforward_neural_network",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 85,
+      "key": "RNN",
+      "aliases": [
+        "RNN"
+      ],
+      "full": "Recurrent neural network",
+      "korean": "순환 신경망",
+      "definition": "순차 데이터(Sequence)를 다루기 위해 고안된 신경망. 은닉 상태(hidden state)를 통해 이전 단계의 정보를 현재 단계 계산에 반영, 임의 길이의 시퀀스를 처리할 수 있다.\n\nVanishing Gradient Problem의 문제로 인해, 장거리 의존성 학습 능력이 제한된다.",
+      "oneLine": "순차 데이터(Sequence)를 다루기 위해 고안된 신경망.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [2] 신경망 시대",
+        "모델",
+        "신경망 구조"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Recurrent_neural_network",
+      "rawTerm": "https://en.wikipedia.org/wiki/Recurrent_neural_network (순환 신경망)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 86,
+      "key": "LLMs",
+      "aliases": [
+        "LLMs",
+        "LLM"
+      ],
+      "full": "Large Language Models",
+      "korean": "대규모 언어 모델",
+      "definition": "대규모 텍스트 데이터와 파라미터 수십억~수천억 개를 사용해 학습한 언어 모델. Transformer 기반 구조를 활용하며, 텍스트 생성, 요약, 번역, 질의응답 등 다양한 언어 관련 작업을 수행할 수 있다.",
+      "oneLine": "대규모 텍스트 데이터와 파라미터 수십억~수천억 개를 사용해 학습한 언어 모델.",
+      "categories": [
+        "NLP",
+        "딥러닝",
+        "딥러닝 [5] 초거대모델 시대",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Large Language Models (대규모 언어 모델)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 87,
+      "key": "DNN",
+      "aliases": [
+        "DNN"
+      ],
+      "full": "Deep Neural Network",
+      "korean": "심층 신경망",
+      "definition": "입력층과 출력층 사이에 여러 개의 은닉층을 포함하는 인공 신경망. 복잡한 비선형 관계를 학습할 수 있으며, 이미지·음성·자연어 등 다양한 고차원 데이터를 처리한다.",
+      "oneLine": "입력층과 출력층 사이에 여러 개의 은닉층을 포함하는 인공 신경망.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "모델",
+        "신경망 구조"
+      ],
+      "source": "",
+      "rawTerm": "Deep Neural Network (심층 신경망)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 88,
+      "key": "ML",
+      "aliases": [
+        "ML"
+      ],
+      "full": "Machine learning",
+      "korean": "머신러닝, https://namu.wiki/w/%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5",
+      "definition": "데이터로부터 규칙을 학습하여 예측이나 의사결정을 수행하는 기술.",
+      "oneLine": "데이터로부터 규칙을 학습하여 예측이나 의사결정을 수행하는 기술.",
+      "categories": [
+        "머신러닝"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Machine_learning",
+      "rawTerm": "https://en.wikipedia.org/wiki/Machine_learning (머신러닝, https://namu.wiki/w/%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 89,
+      "key": "Query & Key & Value",
+      "aliases": [],
+      "full": "Query & Key & Value",
+      "korean": "",
+      "definition": "Query: 현재 토큰이 다른 토큰과 얼마나 관련 있는지 묻는 벡터\n\nKey: 각 토큰이 가진 특징을 나타내는 벡터\n\nValue: 실제로 가중합되어 출력되는 정보 벡터",
+      "oneLine": "Query: 현재 토큰이 다른 토큰과 얼마나 관련 있는지 묻는 벡터 Key: 각 토큰이 가진 특징을 나타내는 벡터 Value: 실제로 가중합되어 출력되는 정보 벡터",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "어텐션"
+      ],
+      "source": "",
+      "rawTerm": "Query & Key & Value",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 90,
+      "key": "Softmax function",
+      "aliases": [],
+      "full": "Softmax function",
+      "korean": "",
+      "definition": "입력 벡터를 확률 분포로 변환하는 함수",
+      "oneLine": "입력 벡터를 확률 분포로 변환하는 함수",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "활성화 함수"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Softmax_function",
+      "rawTerm": "https://en.wikipedia.org/wiki/Softmax_function",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 91,
+      "key": "Reasoning",
+      "aliases": [
+        "Reasoning"
+      ],
+      "full": "Reasoning",
+      "korean": "추론",
+      "definition": "주어진 지식에서 새로운 결론을 도출하는 과정",
+      "oneLine": "주어진 지식에서 새로운 결론을 도출하는 과정",
+      "categories": [
+        "논리학",
+        "추론"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21 (추론)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 92,
+      "key": "마르코프",
+      "aliases": [],
+      "full": "Markov",
+      "korean": "마르코프",
+      "definition": "미래 상태가 현재 상태에만 의존하는 확률적 성질. 미래를 유추하려 한다면, 오직 현재의 값만이 쓸모가 있으며, 과거의 값들은 아무 추가 정보를 제공하지 못한다.",
+      "oneLine": "미래 상태가 현재 상태에만 의존하는 확률적 성질.",
+      "categories": [
+        "확률학"
+      ],
+      "source": "",
+      "rawTerm": "Markov (마르코프)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 93,
+      "key": "Factor Zoo",
+      "aliases": [],
+      "full": "Factor Zoo",
+      "korean": "",
+      "definition": "Bayes-net에서 조건부 확률 분포를 factors로 분해해 표현한 집합",
+      "oneLine": "Bayes-net에서 조건부 확률 분포를 factors로 분해해 표현한 집합",
+      "categories": [
+        "확률학",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Factor Zoo",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 94,
+      "key": "Sampling",
+      "aliases": [
+        "Sampling"
+      ],
+      "full": "Sampling",
+      "korean": "샘플링",
+      "definition": "분포 S의 샘플 N개를 뽑아, 근사적인 사후 확률 계산",
+      "oneLine": "분포 S의 샘플 N개를 뽑아, 근사적인 사후 확률 계산",
+      "categories": [
+        "확률학",
+        "추정/근사"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21 (샘플링)",
+      "status": "published",
+      "stability": "reviewed",
+      "lastReviewed": "2026-06-30",
+      "detect": false,
+      "interviewAnswer": "",
+      "searchTerms": [
+        "표본 추출",
+        "sample"
+      ]
+    },
+    {
+      "id": 95,
+      "key": "몬테카를로",
+      "aliases": [],
+      "full": "Monte Carlo",
+      "korean": "몬테카를로",
+      "definition": "어려운 문제를, 난수를 사용해 수치적 근사치를 계산하는 방법",
+      "oneLine": "어려운 문제를, 난수를 사용해 수치적 근사치를 계산하는 방법",
+      "categories": [
+        "확률학",
+        "추정/근사"
+      ],
+      "source": "",
+      "rawTerm": "Monte Carlo (몬테카를로)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 96,
+      "key": "MCMC",
+      "aliases": [
+        "MCMC"
+      ],
+      "full": "Markov Chain Monte Carlo",
+      "korean": "마르코프 연쇄 몬테카를로",
+      "definition": "Markov Chain을 이용해 목표 분포에서 Sampling하는 기법",
+      "oneLine": "Markov Chain을 이용해 목표 분포에서 Sampling하는 기법",
+      "categories": [
+        "확률학",
+        "추정/근사"
+      ],
+      "source": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "rawTerm": "https://app.notion.com/p/AI-Theory-27e25cef1df380c69097f5ff587203b8?pvs=21",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 97,
+      "key": "정확도",
+      "aliases": [],
+      "full": "Accuracy",
+      "korean": "정확도",
+      "definition": "전체 예측 중에서 맞춘 비율",
+      "oneLine": "전체 예측 중에서 맞춘 비율",
+      "categories": [
+        "머신러닝",
+        "평가"
+      ],
+      "source": "",
+      "rawTerm": "Accuracy (정확도)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 98,
+      "key": "k-NN",
+      "aliases": [
+        "k-NN"
+      ],
+      "full": "k-Nearest Neighbors Classifier",
+      "korean": "",
+      "definition": "가장 가까운 k개의 이웃 데이터의 다수 클래스로 분류하는 모델",
+      "oneLine": "가장 가까운 k개의 이웃 데이터의 다수 클래스로 분류하는 모델",
+      "categories": [
+        "머신러닝",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "k-Nearest Neighbors Classifier",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 99,
+      "key": "Binary digit",
+      "aliases": [
+        "Binary digit"
+      ],
+      "full": "Bit",
+      "korean": "",
+      "definition": "정보의 최소 단위로, 0과 1 두 값을 가짐",
+      "oneLine": "정보의 최소 단위로, 0과 1 두 값을 가짐",
+      "categories": [
+        "정보이론"
+      ],
+      "source": "",
+      "rawTerm": "Bit",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 100,
+      "key": "MMLU",
+      "aliases": [
+        "MMLU"
+      ],
+      "full": "Massive Multitask Language Understanding",
+      "korean": "",
+      "definition": "다양한 분야의 언어 과제를 풀어 모델의 일반 언어 이해 능력을 평가하는 벤치마크.\n\n모델이 넓은 분야의 지식을 알고 있는지 측정. 난이도는 초등학교 ~ 대학원 수준.",
+      "oneLine": "다양한 분야의 언어 과제를 풀어 모델의 일반 언어 이해 능력을 평가하는 벤치마크.",
+      "categories": [
+        "NLP",
+        "평가"
+      ],
+      "source": "",
+      "rawTerm": "Massive Multitask Language Understanding",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 101,
+      "key": "HLE",
+      "aliases": [
+        "HLE"
+      ],
+      "full": "Humanity’s Last Exam",
+      "korean": "",
+      "definition": "초거대 언어 모델의 종합적 능력을 측정하기 위해 설계된 대규모 멀티도메인 벤치마크.\n\n지식 + 추론, 창의, 상식, 비판까지 측정. 해당 분야의 최고 전문가 수준의 인간만 풀어볼 수 있는 수준.",
+      "oneLine": "초거대 언어 모델의 종합적 능력을 측정하기 위해 설계된 대규모 멀티도메인 벤치마크.",
+      "categories": [
+        "NLP",
+        "평가"
+      ],
+      "source": "",
+      "rawTerm": "Humanity’s Last Exam",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 102,
+      "key": "벤치마크",
+      "aliases": [],
+      "full": "Benchmark",
+      "korean": "벤치마크",
+      "definition": "모델의 성능을 비교·평가하기 위해 고정된 데이터셋과 과제를 모아둔 시험 기준",
+      "oneLine": "모델의 성능을 비교·평가하기 위해 고정된 데이터셋과 과제를 모아둔 시험 기준",
+      "categories": [
+        "머신러닝",
+        "평가"
+      ],
+      "source": "",
+      "rawTerm": "Benchmark (벤치마크)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 103,
+      "key": "Seq2Seq",
+      "aliases": [
+        "Seq2Seq",
+        "S2S"
+      ],
+      "full": "Sequence to Sequence Learning",
+      "korean": "",
+      "definition": "입력 sequence를 받고 출력 sequence를 생성하는 학습 방식",
+      "oneLine": "입력 sequence를 받고 출력 sequence를 생성하는 학습 방식",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "학습"
+      ],
+      "source": "",
+      "rawTerm": "Sequence to Sequence Learning",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 104,
+      "key": "표현학습",
+      "aliases": [],
+      "full": "Representation Learning",
+      "korean": "표현학습",
+      "definition": "데이터의 의미 있는 특징을 자동으로 추출하는 학습 방법.\n\nData를 기계가 이해/활용할 수 있는 feature로 자동 변환하는 과정. 즉 data의 본질 구조를 드러내는 vector를 학습.",
+      "oneLine": "데이터의 의미 있는 특징을 자동으로 추출하는 학습 방법.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "표현학습"
+      ],
+      "source": "",
+      "rawTerm": "Representation Learning (표현학습)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 105,
+      "key": "분산 표현",
+      "aliases": [],
+      "full": "Distributed Representation",
+      "korean": "분산 표현",
+      "definition": "하나의 개념을 여러 뉴런/차원에 걸쳐 다차원 벡터로 분산 표현하는 방식",
+      "oneLine": "하나의 개념을 여러 뉴런/차원에 걸쳐 다차원 벡터로 분산 표현하는 방식",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "표현학습"
+      ],
+      "source": "",
+      "rawTerm": "Distributed Representation (분산 표현)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 106,
+      "key": "Fine-tuning",
+      "aliases": [],
+      "full": "Fine-tuning",
+      "korean": "",
+      "definition": "Pre-training된 모델을 특정 task에 맞게 추가 학습하는 기법",
+      "oneLine": "Pre-training된 모델을 특정 task에 맞게 추가 학습하는 기법",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "학습",
+        "학습기법"
+      ],
+      "source": "",
+      "rawTerm": "Fine-tuning",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 107,
+      "key": "사전학습",
+      "aliases": [],
+      "full": "Pre-training",
+      "korean": "사전학습",
+      "definition": "대규모 데이터로 모델을 먼저 학습시켜 일반적 표현을 익히는 단계",
+      "oneLine": "대규모 데이터로 모델을 먼저 학습시켜 일반적 표현을 익히는 단계",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "학습",
+        "학습기법"
+      ],
+      "source": "",
+      "rawTerm": "Pre-training (사전학습)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 108,
+      "key": "HF",
+      "aliases": [
+        "HF"
+      ],
+      "full": "Hugging Face",
+      "korean": "",
+      "definition": "오픈소스 NLP·LLM 라이브러리와 모델 허브를 제공하는 플랫폼",
+      "oneLine": "오픈소스 NLP·LLM 라이브러리와 모델 허브를 제공하는 플랫폼",
+      "categories": [
+        "NLP",
+        "딥러닝",
+        "딥러닝 [5] 초거대모델 시대",
+        "플랫폼"
+      ],
+      "source": "",
+      "rawTerm": "Hugging Face",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 109,
+      "key": "Encoder",
+      "aliases": [],
+      "full": "Encoder",
+      "korean": "",
+      "definition": "Input Sequence → Vector로 변환하는 신경망 구조",
+      "oneLine": "Input Sequence → Vector로 변환하는 신경망 구조",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "신경망 구조"
+      ],
+      "source": "",
+      "rawTerm": "Encoder",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 110,
+      "key": "Decoder",
+      "aliases": [],
+      "full": "Decoder",
+      "korean": "",
+      "definition": "Vector → Output Sequence로 변환하는 신경망 구조",
+      "oneLine": "Vector → Output Sequence로 변환하는 신경망 구조",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "신경망 구조"
+      ],
+      "source": "",
+      "rawTerm": "Decoder",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 111,
+      "key": "기울기 소실",
+      "aliases": [],
+      "full": "Vanishing gradient",
+      "korean": "기울기 소실",
+      "definition": "Backpropagation 중에 발생할 수 있는 문제점.\n\n역전파 중, 깊은 신경망의 초기 층으로 갈수록, gradient가 0에 가까워져, 가중치가 거의 업데이트가 되지 않는 현상",
+      "oneLine": "Backpropagation 중에 발생할 수 있는 문제점.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [2] 신경망 시대",
+        "학습"
+      ],
+      "source": "",
+      "rawTerm": "Vanishing gradient (기울기 소실)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 112,
+      "key": "GAN",
+      "aliases": [
+        "GAN"
+      ],
+      "full": "Generative Adversarial Network",
+      "korean": "생성적 적대 신경망",
+      "definition": "생성자와 판별자가 경쟁하며 데이터를 학습하는 생성 모델",
+      "oneLine": "생성자와 판별자가 경쟁하며 데이터를 학습하는 생성 모델",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [5] 초거대모델 시대",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Generative Adversarial Network (생성적 적대 신경망)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 113,
+      "key": "Transformer",
+      "aliases": [],
+      "full": "Transformer",
+      "korean": "",
+      "definition": "어텐션 메커니즘을 기반으로 한 대표적 딥러닝 모델 구조.\n\nRNN처럼 순차 처리하지 않고, Self-Attention 메커니즘을 사용해 입력 sequence 전체 관계 파악",
+      "oneLine": "어텐션 메커니즘을 기반으로 한 대표적 딥러닝 모델 구조.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "신경망 구조"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)",
+      "rawTerm": "https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture) (https://namu.wiki/w/%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8(%EC%9D%B8%EA%B3%B5%EC%8B%A0%EA%B2%BD%EB%A7%9D))",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 114,
+      "key": "Attention",
+      "aliases": [],
+      "full": "Attention",
+      "korean": "",
+      "definition": "입력 요소 중 중요한 부분에 가중치를 주어 학습하는 메커니즘",
+      "oneLine": "입력 요소 중 중요한 부분에 가중치를 주어 학습하는 메커니즘",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "어텐션"
+      ],
+      "source": "",
+      "rawTerm": "Attention",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 115,
+      "key": "Blending",
+      "aliases": [],
+      "full": "Blending",
+      "korean": "",
+      "definition": "여러 모델의 예측을 합쳐 성능을 향상시키는 앙상블 방법",
+      "oneLine": "여러 모델의 예측을 합쳐 성능을 향상시키는 앙상블 방법",
+      "categories": [
+        "머신러닝",
+        "앙상블"
+      ],
+      "source": "",
+      "rawTerm": "Blending",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 116,
+      "key": "MHA",
+      "aliases": [
+        "MHA"
+      ],
+      "full": "Multi-Head Attention",
+      "korean": "",
+      "definition": "여러 어텐션을 병렬로 수행, 결과를 합쳐 다양한 표현을 학습하는 방법",
+      "oneLine": "여러 어텐션을 병렬로 수행, 결과를 합쳐 다양한 표현을 학습하는 방법",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "어텐션"
+      ],
+      "source": "",
+      "rawTerm": "Multi-Head Attention",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 117,
+      "key": "Self-Attention",
+      "aliases": [],
+      "full": "Self-Attention",
+      "korean": "",
+      "definition": "같은 시퀀스 내 토큰들이 서로의 중요도를 계산하는 어텐션 방식.\n\n데이터 그 자체를 Query로 삼는다.\n같은 input-seq에서 Q, K, V를 모두 생성한다.\n데이터 원천은 서로 동일하나, 가중치 행렬은 다르다.",
+      "oneLine": "같은 시퀀스 내 토큰들이 서로의 중요도를 계산하는 어텐션 방식.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "어텐션"
+      ],
+      "source": "",
+      "rawTerm": "Self-Attention",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 118,
+      "key": "LayerNorm",
+      "aliases": [
+        "LayerNorm"
+      ],
+      "full": "Layer Normalization",
+      "korean": "",
+      "definition": "한 레이어의 출력 분포를 항상 안정적으로 유지하기 위한 학습 중 정규화. \n\n레이어 단위로 입력을 정규화해 학습 안정성을 높이는 기법.",
+      "oneLine": "한 레이어의 출력 분포를 항상 안정적으로 유지하기 위한 학습 중 정규화.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "정규화",
+        "학습기법"
+      ],
+      "source": "",
+      "rawTerm": "Layer Normalization",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 119,
+      "key": "BN",
+      "aliases": [
+        "BN",
+        "BatchNorm"
+      ],
+      "full": "Batch Normalization",
+      "korean": "",
+      "definition": "훈련시, step마다 배치 단위로 입력을 정규화, 학습 속도와 안정성을 향상시키는 기법.\n\nMini-batch 단위로 평균 μ, 분산 σ² 계산 → 출력을 정규화 → 재조정",
+      "oneLine": "훈련시, step마다 배치 단위로 입력을 정규화, 학습 속도와 안정성을 향상시키는 기법. Mini-batch 단위로 평균 μ, 분산 σ² 계산 → 출력을 정규화 → 재조정",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "정규화",
+        "학습기법"
+      ],
+      "source": "",
+      "rawTerm": "Batch Normalization",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 120,
+      "key": "DL: Origins",
+      "aliases": [],
+      "full": "DL: Origins",
+      "korean": "",
+      "definition": "딥러닝 시초기 (1940s ~ 1980s)\n\n인공 뉴런, 퍼셉트론이 제안되었고, 한계가 지적되며 침체기를 겪었다.",
+      "oneLine": "딥러닝 시초기 (1940s ~ 1980s) 인공 뉴런, 퍼셉트론이 제안되었고, 한계가 지적되며 침체기를 겪었다.",
+      "categories": [
+        "딥러닝 [1] 시초 시대",
+        ":시대 분류"
+      ],
+      "source": "",
+      "rawTerm": "DL: Origins",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 121,
+      "key": "DL: NN Research",
+      "aliases": [],
+      "full": "DL: NN Research",
+      "korean": "",
+      "definition": "신경망 연구기 (1980s ~ 2006)\n\n신경망 이론이 발전, 활성화 함수 개발. 역전파 등장. RNN 등장. 그러나 데이터 및 컴퓨팅 자원 부족.",
+      "oneLine": "신경망 연구기 (1980s ~ 2006) 신경망 이론이 발전, 활성화 함수 개발.",
+      "categories": [
+        "딥러닝 [2] 신경망 시대",
+        ":시대 분류"
+      ],
+      "source": "",
+      "rawTerm": "DL: NN Research",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 122,
+      "key": "DL: Transformer Revolution",
+      "aliases": [],
+      "full": "DL: Transformer Revolution",
+      "korean": "",
+      "definition": "트랜스포머 혁명 (2017 ~ )\n\nTransformer 구조가 제안됨. 사전학습 + 파인튜닝 패러다임이 자리잡음. BERT, GPT 계열 등장. 표현학습 정착.",
+      "oneLine": "트랜스포머 혁명 (2017 ~ ) Transformer 구조가 제안됨.",
+      "categories": [
+        "딥러닝 [4] 트랜스포머 시대",
+        ":시대 분류"
+      ],
+      "source": "",
+      "rawTerm": "DL: Transformer Revolution",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 123,
+      "key": "DL: DL Renaissance",
+      "aliases": [],
+      "full": "DL: DL Renaissance",
+      "korean": "",
+      "definition": "딥러닝 부흥기 (2006 ~ 2017)\n\n현대 딥러닝의 탄생. ”딥러닝” 용어 부활. CNN으로 딥러닝 대중화. GPU 학습 혁신. RNN 본격화.",
+      "oneLine": "딥러닝 부흥기 (2006 ~ 2017) 현대 딥러닝의 탄생.",
+      "categories": [
+        "딥러닝 [3] 부흥 시대",
+        ":시대 분류"
+      ],
+      "source": "",
+      "rawTerm": "DL: DL Renaissance",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 124,
+      "key": "DL: Era of Large-Scale Models",
+      "aliases": [],
+      "full": "DL: Era of Large-Scale Models",
+      "korean": "",
+      "definition": "초거대 모델 시대 (2020/2022 ~ )\n\nChatGPT 출범. 대 LLM 시대 돌입.",
+      "oneLine": "초거대 모델 시대 (2020/2022 ~ ) ChatGPT 출범.",
+      "categories": [
+        "딥러닝 [5] 초거대모델 시대",
+        ":시대 분류"
+      ],
+      "source": "",
+      "rawTerm": "DL: Era of Large-Scale Models",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 125,
+      "key": "Skip Connection",
+      "aliases": [
+        "Skip Connection"
+      ],
+      "full": "Residual neural network",
+      "korean": "잔차 연결",
+      "definition": "한 층의 입력을 그 층의 출력에 직접 더하는 방식. 입력을 변환 결과에 더해 기울기 소실을 줄이고 깊은 네트워크 학습을 가능하게 하는 구조.\n\n딥러닝의 학습 안정성과 정확도를 크게 개선했다.",
+      "oneLine": "한 층의 입력을 그 층의 출력에 직접 더하는 방식.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Residual_neural_network",
+      "rawTerm": "https://en.wikipedia.org/wiki/Residual_neural_network (잔차 연결)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 126,
+      "key": "Positional Encoding",
+      "aliases": [
+        "Positional Encoding"
+      ],
+      "full": "Positional Embedding",
+      "korean": "",
+      "definition": "시퀀스에서 토큰의 위치 정보를 벡터에 반영하는 방법",
+      "oneLine": "시퀀스에서 토큰의 위치 정보를 벡터에 반영하는 방법",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "표현학습"
+      ],
+      "source": "",
+      "rawTerm": "Positional Embedding",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 127,
+      "key": "AR Modeling",
+      "aliases": [
+        "AR Modeling"
+      ],
+      "full": "Autoregressive model",
+      "korean": "자기회귀 모델링",
+      "definition": "이전 출력 값을 사용해 다음 출력을 순차적으로 생성하는 학습 방식",
+      "oneLine": "이전 출력 값을 사용해 다음 출력을 순차적으로 생성하는 학습 방식",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "학습기법"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Autoregressive_model",
+      "rawTerm": "https://en.wikipedia.org/wiki/Autoregressive_model (자기회귀 모델링)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 128,
+      "key": "FFN",
+      "aliases": [
+        "FFN"
+      ],
+      "full": "Feed Forward Network",
+      "korean": "",
+      "definition": "FFNN과는 다른 개념이다.\n\n입력을 순방향 계층만 거쳐 변환하는 신경망, Transformer 블록의 핵심 구성 요소",
+      "oneLine": "FFNN과는 다른 개념이다. 입력을 순방향 계층만 거쳐 변환하는 신경망, Transformer 블록의 핵심 구성 요소",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대"
+      ],
+      "source": "",
+      "rawTerm": "Feed Forward Network",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 129,
+      "key": "GPT-1",
+      "aliases": [
+        "GPT-1"
+      ],
+      "full": "Generative Pre-trained Transformer 1",
+      "korean": "",
+      "definition": "2018년 OpenAI가 발표한 최초의 GPT.\n\nTransformer의 Decoder-only 구조만 사용해도 충분히 강력한 언어 모델을 만들 수 있음을 증명. 심지어 Encoder의 장점인 분류 문제도 풀 수 있다.\n\nEncoder를 배제하면서 모델이 단순화되었고, 모델 크기와 데이터 크기를 키울 수 있게 되었다.",
+      "oneLine": "2018년 OpenAI가 발표한 최초의 GPT.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Generative Pre-trained Transformer 1",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 130,
+      "key": "GPT-2",
+      "aliases": [
+        "GPT-2"
+      ],
+      "full": "Generative Pre-trained Transformer 2",
+      "korean": "",
+      "definition": "2019년 발표. 특정 목적(task)에 특화된 모델이 아니라, 언어 모델 자체의 규모를 크게 확장했더니 별도의 Fine-tuning 없이도 Multitask 능력이 자연스럽게 발현되었다.",
+      "oneLine": "2019년 발표. 특정 목적(task)에 특화된 모델이 아니라, 언어 모델 자체의 규모를 크게 확장했더니 별도의 Fine-tuning 없이도 Multitask 능력이 자연스럽게 발현되었다.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Generative Pre-trained Transformer 2",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 131,
+      "key": "GPT-3",
+      "aliases": [
+        "GPT-3"
+      ],
+      "full": "Generative Pre-trained Transformer 3",
+      "korean": "",
+      "definition": "2020년 발표, LLM 시대의 전환점을 연다. \n\n기존 ML은 문제 해결 시 data를 넣고 parameter update가 필수적이었으나, GPT-3는 prompt(context)만 충분히 제공하면, 파라미터 업데이트 없이도 Few-shot/Zero-shot 학습(In-Context Learning) 을 통해 새로운 작업을 수행할 수 있음을 보여주었다.\n\n즉 스케일(Parameters + 학습 데이터 양 + 연산량)을 크게 키우는 것만으로 성능이 올라갔다.",
+      "oneLine": "2020년 발표, LLM 시대의 전환점을 연다.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [5] 초거대모델 시대",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Generative Pre-trained Transformer 3",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 132,
+      "key": "Encoder-Only",
+      "aliases": [],
+      "full": "Encoder-Only",
+      "korean": "",
+      "definition": "인코더만 사용해 입력을 이해·표현하는 구조, 대표적으로 BERT와 같은 모델이 있음",
+      "oneLine": "인코더만 사용해 입력을 이해·표현하는 구조, 대표적으로 BERT와 같은 모델이 있음",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "신경망 구조"
+      ],
+      "source": "",
+      "rawTerm": "Encoder-Only",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 133,
+      "key": "Decoder-Only",
+      "aliases": [],
+      "full": "Decoder-Only",
+      "korean": "",
+      "definition": "디코더만 사용해 순차적으로 출력을 생성하는 구조, 대표적으로 GPT 계열이 있음",
+      "oneLine": "디코더만 사용해 순차적으로 출력을 생성하는 구조, 대표적으로 GPT 계열이 있음",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "신경망 구조"
+      ],
+      "source": "",
+      "rawTerm": "Decoder-Only",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 134,
+      "key": "Encoder-Decoder",
+      "aliases": [],
+      "full": "Encoder-Decoder",
+      "korean": "",
+      "definition": "입력을 인코더로 변환 후 디코더로 출력하는 구조. 번역·요약 등 시퀀스 변환 작업에 활용됨",
+      "oneLine": "입력을 인코더로 변환 후 디코더로 출력하는 구조.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "신경망 구조"
+      ],
+      "source": "",
+      "rawTerm": "Encoder-Decoder",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 135,
+      "key": "DL: Multimodal Innovation",
+      "aliases": [],
+      "full": "DL: Multimodal Innovation",
+      "korean": "",
+      "definition": "멀티모달 혁신기 (2023 ~ )\n\nGPT-4, Gemini, LLaMA 등 AI 붐. LLM이 텍스트 + 이미지 + 음성 + 영상까지 확장됨.",
+      "oneLine": "멀티모달 혁신기 (2023 ~ ) GPT-4, Gemini, LLaMA 등 AI 붐.",
+      "categories": [
+        "딥러닝 [6] 멀티모달 시대",
+        ":시대 분류"
+      ],
+      "source": "",
+      "rawTerm": "DL: Multimodal Innovation",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 136,
+      "key": "BERT (버트)",
+      "aliases": [
+        "BERT (버트)"
+      ],
+      "full": "Bidirectional Encoder Representations from Transformers",
+      "korean": "트랜스포머의 양방향 인코더 표현",
+      "definition": "2018년 구글이 제안한 Transformer 기반 양방향 인코더 모델. 사전학습 + 파인튜닝 패러다임을 확립.\n\nEncoder-only를 사용하는 분류 모델. Decoder를 없애면서 scalability를 확보했다.",
+      "oneLine": "2018년 구글이 제안한 Transformer 기반 양방향 인코더 모델.",
+      "categories": [
+        "딥러닝 [4] 트랜스포머 시대",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Bidirectional Encoder Representations from Transformers (트랜스포머의 양방향 인코더 표현)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 137,
+      "key": "제프리 힌턴",
+      "aliases": [],
+      "full": "Geoffrey Hinton",
+      "korean": "제프리 힌턴",
+      "definition": "역전파와 DBN을 보급해 딥러닝 부흥을 이끈 학자, “딥러닝의 아버지”",
+      "oneLine": "역전파와 DBN을 보급해 딥러닝 부흥을 이끈 학자, “딥러닝의 아버지”",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [2] 신경망 시대",
+        "인물"
+      ],
+      "source": "",
+      "rawTerm": "Geoffrey Hinton (제프리 힌턴)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 138,
+      "key": "얀 르쿤",
+      "aliases": [],
+      "full": "Yann LeCun",
+      "korean": "얀 르쿤",
+      "definition": "CNN(LeNet) 개발, 컴퓨터 비전과 딥러닝 대중화에 기여",
+      "oneLine": "CNN(LeNet) 개발, 컴퓨터 비전과 딥러닝 대중화에 기여",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [2] 신경망 시대",
+        "인물"
+      ],
+      "source": "",
+      "rawTerm": "Yann LeCun (얀 르쿤)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 139,
+      "key": "요슈아 벤지오",
+      "aliases": [],
+      "full": "Yoshua Bengio",
+      "korean": "요슈아 벤지오",
+      "definition": "Representation Learning 연구를 주도, 딥러닝 이론적 토대 확립",
+      "oneLine": "Representation Learning 연구를 주도, 딥러닝 이론적 토대 확립",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "인물"
+      ],
+      "source": "",
+      "rawTerm": "Yoshua Bengio (요슈아 벤지오)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 140,
+      "key": "위르겐 슈미트후버",
+      "aliases": [],
+      "full": "Jürgen Schmidhuber",
+      "korean": "위르겐 슈미트후버",
+      "definition": "LSTM을 공동 개발, 장기 의존성 문제 해결에",
+      "oneLine": "LSTM을 공동 개발, 장기 의존성 문제 해결에",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [2] 신경망 시대",
+        "인물"
+      ],
+      "source": "",
+      "rawTerm": "Jürgen Schmidhuber (위르겐 슈미트후버)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 141,
+      "key": "아시쉬 바스와니",
+      "aliases": [],
+      "full": "Ashish Vaswani",
+      "korean": "아시쉬 바스와니",
+      "definition": "“Attention is All You Need” 제1저자, Transformer 창시자",
+      "oneLine": "“Attention is All You Need” 제1저자, Transformer 창시자",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "인물"
+      ],
+      "source": "",
+      "rawTerm": "Ashish Vaswani (아시쉬 바스와니)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 142,
+      "key": "제이콥 데블린",
+      "aliases": [],
+      "full": "Jacob Devlin",
+      "korean": "제이콥 데블린",
+      "definition": "BERT(2018) 제안, NLP 사전학습·파인튜닝 패러다임 확립",
+      "oneLine": "BERT(2018) 제안, NLP 사전학습·파인튜닝 패러다임",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "인물"
+      ],
+      "source": "",
+      "rawTerm": "Jacob Devlin (제이콥 데블린)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 143,
+      "key": "샘 알트먼",
+      "aliases": [],
+      "full": "Sam Altman",
+      "korean": "샘 알트먼",
+      "definition": "OpenAI CEO, ChatGPT 상용화를 통해 LLM 대중화를 주도",
+      "oneLine": "OpenAI CEO, ChatGPT 상용화를 통해 LLM 대중화를 주도",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [5] 초거대모델 시대",
+        "인물"
+      ],
+      "source": "",
+      "rawTerm": "Sam Altman (샘 알트먼)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 144,
+      "key": "Andrew Ng",
+      "aliases": [],
+      "full": "Andrew Ng",
+      "korean": "",
+      "definition": "Google Brain을 공동 설립하고, Coursera를 통해 딥러닝 교육을 대중화한 AI 연구자",
+      "oneLine": "Google Brain을 공동 설립하고, Coursera를 통해 딥러닝 교육을 대중화한 AI 연구자",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "인물"
+      ],
+      "source": "",
+      "rawTerm": "Andrew Ng",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 145,
+      "key": "DBN",
+      "aliases": [
+        "DBN"
+      ],
+      "full": "Deep Belief Network",
+      "korean": "",
+      "definition": "제한 볼츠만 머신(RBM)을 여러 층 쌓아올린 생성 모델, 2006년 Hinton이 제안하며 “딥러닝”이라는 용어를 부활시킴",
+      "oneLine": "제한 볼츠만 머신(RBM)을 여러 층 쌓아올린 생성 모델, 2006년 Hinton이 제안하며 “딥러닝”이라는 용어를 부활시킴",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Deep Belief Network",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 146,
+      "key": "LSTM",
+      "aliases": [
+        "LSTM"
+      ],
+      "full": "Long Short-Term Memory",
+      "korean": "장단기 메모리",
+      "definition": "RNN의 장기 의존성 문제를 해결하기 위해 게이트 구조를 도입한 순환 신경망 변형, 1997년 Hochreiter와 Schmidhuber가 제안",
+      "oneLine": "RNN의 장기 의존성 문제를 해결하기 위해 게이트 구조를 도입한 순환 신경망 변형, 1997년 Hochreiter와 Schmidhuber가 제안",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [2] 신경망 시대",
+        "신경망 구조"
+      ],
+      "source": "",
+      "rawTerm": "Long Short-Term Memory (장단기 메모리)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 147,
+      "key": "GLUE",
+      "aliases": [
+        "GLUE"
+      ],
+      "full": "General Language Understanding Evaluation",
+      "korean": "언어 이해 평가 벤치마크",
+      "definition": "2018년 제안된 NLU 벤치마크 모음으로, 여러 언어 과제에서 모델 성능을 종합적으로 평가.\n\nGLUE가 너무 빨리 상향 평준화되자, 2019년 SuperGLUE도 제안되었다.",
+      "oneLine": "2018년 제안된 NLU 벤치마크 모음으로, 여러 언어 과제에서 모델 성능을 종합적으로 평가.",
+      "categories": [
+        "NLP",
+        "딥러닝 [4] 트랜스포머 시대",
+        "평가"
+      ],
+      "source": "",
+      "rawTerm": "General Language Understanding Evaluation (언어 이해 평가 벤치마크)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 148,
+      "key": "ELMo",
+      "aliases": [
+        "ELMo"
+      ],
+      "full": "Embeddings from Language Models",
+      "korean": "언어 모델 임베딩",
+      "definition": "2018년 제안된 양방향 LSTM 기반 언어 모델, 문맥에 따라 단어 임베딩을 동적으로 생성. RNN 시대 최후의 황제이고, Transformer 계열이 등장하자 사장되었다.",
+      "oneLine": "2018년 제안된 양방향 LSTM 기반 언어 모델, 문맥에 따라 단어 임베딩을 동적으로 생성.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Embeddings from Language Models (언어 모델 임베딩)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 149,
+      "key": "Modern BERT",
+      "aliases": [],
+      "full": "Modern BERT",
+      "korean": "",
+      "definition": "BERT 이후 발전한 다양한 변형·개선형 모델들을 통칭하는 비공식적 표현, 예: RoBERTa, ALBERT, DeBERTa 등",
+      "oneLine": "BERT 이후 발전한 다양한 변형·개선형 모델들을 통칭하는 비공식적 표현, 예: RoBERTa, ALBERT, DeBERTa 등",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [5] 초거대모델 시대",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Modern BERT",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 150,
+      "key": "Scaling Law Region",
+      "aliases": [
+        "Scaling Law Region"
+      ],
+      "full": "Power-law region",
+      "korean": "멱법칙 영역",
+      "definition": "parameter 수, data 양, 계산량을 키울수록 loss가 일정 기울기로 예측 가능하게 줄어드는 영역.\n\nParameter 수가 클수록 학습 속도가 빨라지며, 수렴하는 loss가 작아진다.",
+      "oneLine": "parameter 수, data 양, 계산량을 키울수록 loss가 일정 기울기로 예측 가능하게 줄어드는 영역.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [5] 초거대모델 시대",
+        "학습"
+      ],
+      "source": "",
+      "rawTerm": "Power-law region (멱법칙 영역)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 151,
+      "key": "창발적 능력",
+      "aliases": [],
+      "full": "Emergent Abilities",
+      "korean": "창발적 능력",
+      "definition": "모델 Scale(규모)이 일정 임계점을 넘을 때, 소규모 모델에서는 나타나지 않던 새로운 능력이 갑자기 등장하는 현상",
+      "oneLine": "모델 Scale(규모)이 일정 임계점을 넘을 때, 소규모 모델에서는 나타나지 않던 새로운 능력이 갑자기 등장하는 현상",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [5] 초거대모델 시대"
+      ],
+      "source": "",
+      "rawTerm": "Emergent Abilities (창발적 능력)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 152,
+      "key": "GPT-4",
+      "aliases": [
+        "GPT-4"
+      ],
+      "full": "Generative Pre-trained Transformer 4",
+      "korean": "",
+      "definition": "2023년 OpenAI가 공개한 대규모 언어 모델로, GPT-3 대비 더 안정적이고 강력한 성능을 보이며 텍스트·이미지 입력을 모두 처리하는 멀티모달 능력을 도입",
+      "oneLine": "2023년 OpenAI가 공개한 대규모 언어 모델로, GPT-3 대비 더 안정적이고 강력한 성능을 보이며 텍스트·이미지 입력을 모두 처리하는 멀티모달 능력을 도입",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Generative Pre-trained Transformer 4",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 153,
+      "key": "제미니",
+      "aliases": [],
+      "full": "Gemini",
+      "korean": "제미니",
+      "definition": "Google DeepMind가 개발한 차세대 멀티모달 AI 모델 시리즈로, 텍스트·이미지·코드 등 다양한 입력을 처리",
+      "oneLine": "Google DeepMind가 개발한 차세대 멀티모달 AI 모델 시리즈로, 텍스트·이미지·코드 등 다양한 입력을 처리",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Gemini (제미니)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 154,
+      "key": "딥시크",
+      "aliases": [],
+      "full": "DeepSeek",
+      "korean": "딥시크",
+      "definition": "중국 기반 기업 DeepSeek가 2023~2024년에 내놓은 초대형 언어 모델. 제한된 자원과 적은 비용으로 다른 고성능 거대 AI 모델과 유사한 성능을 발휘한다.",
+      "oneLine": "중국 기반 기업 DeepSeek가 2023~2024년에 내놓은 초대형 언어 모델.",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "DeepSeek (딥시크)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 155,
+      "key": "AGI",
+      "aliases": [
+        "AGI"
+      ],
+      "full": "Artificial General Intelligence",
+      "korean": "범용 인공지능",
+      "definition": "특정 과제가 아닌 다양한 지적 활동을 인간 수준 이상으로 수행할 수 있는 범용 인공지능",
+      "oneLine": "특정 과제가 아닌 다양한 지적 활동을 인간 수준 이상으로 수행할 수 있는 범용 인공지능",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [7] 미래"
+      ],
+      "source": "",
+      "rawTerm": "Artificial General Intelligence (범용 인공지능)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 156,
+      "key": "DL: Future",
+      "aliases": [],
+      "full": "DL: Future",
+      "korean": "",
+      "definition": "아직 오지 않은 미래 (???? ~ )\n\n추가로 무언가의 대혁신이 있을 예정.",
+      "oneLine": "아직 오지 않은 미래 (???? ~ ) 추가로 무언가의 대혁신이 있을 예정.",
+      "categories": [
+        "딥러닝 [7] 미래",
+        ":시대 분류"
+      ],
+      "source": "",
+      "rawTerm": "DL: Future",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 157,
+      "key": "OpenAI",
+      "aliases": [],
+      "full": "OpenAI",
+      "korean": "",
+      "definition": "2015년 설립된 비영리에서 출발한 AI 연구소, GPT 계열과 ChatGPT 개발로 LLM 혁신을 선도",
+      "oneLine": "2015년 설립된 비영리에서 출발한 AI 연구소, GPT 계열과 ChatGPT 개발로 LLM 혁신을 선도",
+      "categories": [
+        "기업",
+        "연구소"
+      ],
+      "source": "",
+      "rawTerm": "OpenAI",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 158,
+      "key": "Google DeepMind",
+      "aliases": [],
+      "full": "Google DeepMind",
+      "korean": "",
+      "definition": "2014년 구글에 인수된 연구 조직. AlphaGo, AlphaFold, Gemini 등을 개발",
+      "oneLine": "2014년 구글에 인수된 연구 조직. AlphaGo, AlphaFold, Gemini 등을 개발",
+      "categories": [
+        "기업",
+        "연구소"
+      ],
+      "source": "",
+      "rawTerm": "Google DeepMind",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 159,
+      "key": "Google Research",
+      "aliases": [],
+      "full": "Google Research",
+      "korean": "",
+      "definition": "Transformer, BERT 등 핵심 논문과 모델을 발표하며 AI 발전에 크게 기여",
+      "oneLine": "Transformer, BERT 등 핵심 논문과 모델을 발표하며 AI 발전에 크게 기여",
+      "categories": [
+        "기업"
+      ],
+      "source": "",
+      "rawTerm": "Google Research",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 160,
+      "key": "MS",
+      "aliases": [
+        "MS"
+      ],
+      "full": "Microsoft",
+      "korean": "",
+      "definition": "OpenAI의 전략적 파트너, Azure 기반 AI 인프라와 Copilot 시리즈 상용화",
+      "oneLine": "OpenAI의 전략적 파트너, Azure 기반 AI 인프라와 Copilot 시리즈 상용화",
+      "categories": [
+        "기업",
+        "플랫폼"
+      ],
+      "source": "",
+      "rawTerm": "Microsoft",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 161,
+      "key": "Meta AI",
+      "aliases": [],
+      "full": "Meta AI",
+      "korean": "",
+      "definition": "Facebook 산하 연구 조직, LLaMA 오픈소스 LLM 공개로 연구 생태계 확장",
+      "oneLine": "Facebook 산하 연구 조직, LLaMA 오픈소스 LLM 공개로 연구 생태계 확장",
+      "categories": [
+        "기업",
+        "연구소"
+      ],
+      "source": "",
+      "rawTerm": "Meta AI",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 162,
+      "key": "Anthropic",
+      "aliases": [],
+      "full": "Anthropic",
+      "korean": "",
+      "definition": "전 OpenAI 연구진이 설립, Claude 시리즈로 안전성 중심 LLM 연구",
+      "oneLine": "전 OpenAI 연구진이 설립, Claude 시리즈로 안전성 중심 LLM 연구",
+      "categories": [
+        "기업",
+        "연구소"
+      ],
+      "source": "",
+      "rawTerm": "Anthropic",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 163,
+      "key": "Amazon",
+      "aliases": [],
+      "full": "Amazon",
+      "korean": "",
+      "definition": "클라우드 기반 AI 서비스(AWS Bedrock, SageMaker 등) 제공",
+      "oneLine": "클라우드 기반 AI 서비스(AWS Bedrock, SageMaker 등) 제공",
+      "categories": [
+        "기업",
+        "플랫폼"
+      ],
+      "source": "",
+      "rawTerm": "Amazon",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 164,
+      "key": "엔비디아",
+      "aliases": [],
+      "full": "NVIDIA",
+      "korean": "엔비디아",
+      "definition": "GPU·CUDA 생태계로 딥러닝 발전을 가능하게 한 핵심 반도체 기업",
+      "oneLine": "GPU·CUDA 생태계로 딥러닝 발전을 가능하게 한 핵심 반도체 기업",
+      "categories": [
+        "기업",
+        "하드웨어"
+      ],
+      "source": "",
+      "rawTerm": "NVIDIA (엔비디아)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 165,
+      "key": "Baidu",
+      "aliases": [],
+      "full": "Baidu",
+      "korean": "",
+      "definition": "중국 대표 검색·AI 기업, ERNIE LLM 시리즈 개발",
+      "oneLine": "중국 대표 검색·AI 기업, ERNIE LLM 시리즈 개발",
+      "categories": [
+        "기업",
+        "연구소"
+      ],
+      "source": "",
+      "rawTerm": "Baidu",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 166,
+      "key": "딥시크",
+      "aliases": [],
+      "full": "DeepSeek",
+      "korean": "딥시크",
+      "definition": "중국 기반 초거대 언어 모델 기업, 오픈소스 LLM 경쟁에서 급부상.\n\n동명의 AI 모델을 출범함.",
+      "oneLine": "중국 기반 초거대 언어 모델 기업, 오픈소스 LLM 경쟁에서 급부상.",
+      "categories": [
+        "기업",
+        "연구소"
+      ],
+      "source": "",
+      "rawTerm": "DeepSeek (딥시크)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 167,
+      "key": "클로드",
+      "aliases": [],
+      "full": "Claude",
+      "korean": "클로드",
+      "definition": "Anthropic이 개발한 LLM 시리즈로, 안전성과 책임성에 중점을 둔 설계 철학을 가진 대화형 모델",
+      "oneLine": "Anthropic이 개발한 LLM 시리즈로, 안전성과 책임성에 중점을 둔 설계 철학을 가진 대화형 모델",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Claude (클로드)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 168,
+      "key": "LLaMA (라마)",
+      "aliases": [
+        "LLaMA (라마)"
+      ],
+      "full": "Large Language Model Meta AI",
+      "korean": "",
+      "definition": "Meta AI가 개발한 오픈소스 LLM 시리즈, 연구 커뮤니티와 산업계에서 폭넓게 사용",
+      "oneLine": "Meta AI가 개발한 오픈소스 LLM 시리즈, 연구 커뮤니티와 산업계에서 폭넓게 사용",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "Large Language Model Meta AI",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 169,
+      "key": "MSA",
+      "aliases": [
+        "MSA"
+      ],
+      "full": "Multi-Head Self-Attention",
+      "korean": "",
+      "definition": "입력 시퀀스의 서로 다른 부분을 병렬적으로 주목하여 더 풍부한 표현을 학습하는 Transformer 핵심 기법",
+      "oneLine": "입력 시퀀스의 서로 다른 부분을 병렬적으로 주목하여 더 풍부한 표현을 학습하는 Transformer 핵심 기법",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "어텐션"
+      ],
+      "source": "",
+      "rawTerm": "Multi-Head Self-Attention",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 170,
+      "key": "RAG",
+      "aliases": [
+        "RAG"
+      ],
+      "full": "Retrieval-Augmented Generation",
+      "korean": "검색 증강 생성",
+      "definition": "LLM이 외부 지식베이스에서 정보를 검색해 활용한 뒤 텍스트를 생성하는 방식",
+      "oneLine": "LLM이 외부 지식베이스에서 정보를 검색해 활용한 뒤 텍스트를 생성하는 방식",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대",
+        "학습기법"
+      ],
+      "source": "",
+      "rawTerm": "Retrieval-Augmented Generation (검색 증강 생성)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 171,
+      "key": "CPU",
+      "aliases": [
+        "CPU"
+      ],
+      "full": "Central Processing Unit",
+      "korean": "중앙처리장치",
+      "definition": "일반적인 컴퓨터 연산을 수행하는 중앙 처리 장치로, 직렬 처리에 최적화되어 있음",
+      "oneLine": "일반적인 컴퓨터 연산을 수행하는 중앙 처리 장치로, 직렬 처리에 최적화되어 있음",
+      "categories": [
+        "하드웨어"
+      ],
+      "source": "",
+      "rawTerm": "Central Processing Unit (중앙처리장치)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 172,
+      "key": "GPU",
+      "aliases": [
+        "GPU"
+      ],
+      "full": "Graphics Processing Unit",
+      "korean": "그래픽처리장치",
+      "definition": "대규모 행렬 연산에 특화된 병렬 처리 장치로, 딥러닝 학습 가속에 핵심 역할을 함",
+      "oneLine": "대규모 행렬 연산에 특화된 병렬 처리 장치로, 딥러닝 학습 가속에 핵심 역할을 함",
+      "categories": [
+        "하드웨어"
+      ],
+      "source": "",
+      "rawTerm": "Graphics Processing Unit (그래픽처리장치)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 173,
+      "key": "TPU",
+      "aliases": [
+        "TPU"
+      ],
+      "full": "Tensor Processing Unit",
+      "korean": "텐서처리장치",
+      "definition": "Google이 설계한 딥러닝 전용 칩으로, 텐서 연산을 효율적으로 수행하기 위해 최적화된 ASIC 기반 가속기",
+      "oneLine": "Google이 설계한 딥러닝 전용 칩으로, 텐서 연산을 효율적으로 수행하기 위해 최적화된 ASIC 기반 가속기",
+      "categories": [
+        "하드웨어"
+      ],
+      "source": "",
+      "rawTerm": "Tensor Processing Unit (텐서처리장치)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 174,
+      "key": "Autonomous AI",
+      "aliases": [
+        "Autonomous AI"
+      ],
+      "full": "Agentic AI",
+      "korean": "",
+      "definition": "단순한 언어 모델을 넘어, 스스로 목표를 설정하고 계획·행동·도구 활용을 수행하는 자율적 AI 시스템",
+      "oneLine": "단순한 언어 모델을 넘어, 스스로 목표를 설정하고 계획·행동·도구 활용을 수행하는 자율적 AI 시스템",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대"
+      ],
+      "source": "",
+      "rawTerm": "Agentic AI",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 175,
+      "key": "Prompt Engineering",
+      "aliases": [],
+      "full": "Prompt Engineering",
+      "korean": "",
+      "definition": "대형 언어 모델이 원하는 출력을 생성하도록 입력 문장을 정교하게 설계·조정하는 기술",
+      "oneLine": "대형 언어 모델이 원하는 출력을 생성하도록 입력 문장을 정교하게 설계·조정하는 기술",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [5] 초거대모델 시대"
+      ],
+      "source": "",
+      "rawTerm": "Prompt Engineering",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 176,
+      "key": "Few-shot Learning",
+      "aliases": [],
+      "full": "Few-shot Learning",
+      "korean": "",
+      "definition": "소량의 예시(몇 개의 샘플)만으로 새로운 작업을 학습하거나 일반화하는 방법",
+      "oneLine": "소량의 예시(몇 개의 샘플)만으로 새로운 작업을 학습하거나 일반화하는 방법",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [5] 초거대모델 시대",
+        "학습기법"
+      ],
+      "source": "",
+      "rawTerm": "Few-shot Learning",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 177,
+      "key": "ICL",
+      "aliases": [
+        "ICL"
+      ],
+      "full": "In-Context Learning",
+      "korean": "문맥 내 학습",
+      "definition": "모델이 파라미터를 수정하지 않고, prompt 속 예시와 지시만으로 새로운 과제에 적응하는 능력",
+      "oneLine": "모델이 파라미터를 수정하지 않고, prompt 속 예시와 지시만으로 새로운 과제에 적응하는 능력",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [5] 초거대모델 시대",
+        "학습기법"
+      ],
+      "source": "",
+      "rawTerm": "In-Context Learning (문맥 내 학습)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 178,
+      "key": "True Label",
+      "aliases": [
+        "True Label",
+        "Reference Data"
+      ],
+      "full": "Ground Truth",
+      "korean": "",
+      "definition": "모델의 예측 결과를 평가하기 위해 기준이 되는 실제 정답 또는 참값 데이터",
+      "oneLine": "모델의 예측 결과를 평가하기 위해 기준이 되는 실제 정답 또는 참값 데이터",
+      "categories": [
+        "머신러닝",
+        "데이터"
+      ],
+      "source": "",
+      "rawTerm": "Ground Truth",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 179,
+      "key": "Advanced Micro Device",
+      "aliases": [],
+      "full": "Advanced Micro Device",
+      "korean": "",
+      "definition": "CPU·GPU 등 반도체를 설계·제조하는 글로벌 기업으로, AI 연산용 GPU 시장에서 NVIDIA의 주요 경쟁사",
+      "oneLine": "CPU·GPU 등 반도체를 설계·제조하는 글로벌 기업으로, AI 연산용 GPU 시장에서 NVIDIA의 주요",
+      "categories": [
+        "기업",
+        "하드웨어"
+      ],
+      "source": "",
+      "rawTerm": "Advanced Micro Device",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 180,
+      "key": "ADK",
+      "aliases": [
+        "ADK"
+      ],
+      "full": "AI Developer Kit",
+      "korean": "",
+      "definition": "AI 모델 학습·추론을 실험하고 배포할 수 있도록 구성된 개발용 툴킷 또는 하드웨어 세트",
+      "oneLine": "AI 모델 학습·추론을 실험하고 배포할 수 있도록 구성된 개발용 툴킷 또는 하드웨어 세트",
+      "categories": [
+        "하드웨어",
+        "개발 도구"
+      ],
+      "source": "",
+      "rawTerm": "AI Developer Kit",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 181,
+      "key": "MQA",
+      "aliases": [
+        "MQA"
+      ],
+      "full": "Multi-Query Attention",
+      "korean": "",
+      "definition": "여러 Query Heads는 유지하면서 Key, Value를 공유하여 메모리 사용량을 줄이고 추론 속도를 높인 효율적 어텐션 방식",
+      "oneLine": "여러 Query Heads는 유지하면서 Key, Value를 공유하여 메모리 사용량을 줄이고 추론 속도를 높인 효율적 어텐션 방식",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [5] 초거대모델 시대",
+        "어텐션"
+      ],
+      "source": "",
+      "rawTerm": "Multi-Query Attention",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 182,
+      "key": "GQA",
+      "aliases": [
+        "GQA"
+      ],
+      "full": "Grouped-Query Attention",
+      "korean": "",
+      "definition": "다수의 Query Heads를 소규모 그룹으로 묶어 Key, Value를 부분적으로 공유하는 방식으로, MHA 품질과 MQA 효율을 절충한 어텐션 구조",
+      "oneLine": "다수의 Query Heads를 소규모 그룹으로 묶어 Key, Value를 부분적으로 공유하는 방식으로, MHA 품질과 MQA 효율을 절충한 어텐션 구조",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [5] 초거대모델 시대",
+        "어텐션"
+      ],
+      "source": "",
+      "rawTerm": "Grouped-Query Attention",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 183,
+      "key": "Normal Distribution (https://ko.wikipedia.org/wiki/%EC%A0%95%EA%B7%9C_%EB%B6%84%ED%8F%AC)",
+      "aliases": [
+        "Normal Distribution (https://ko.wikipedia.org/wiki/%EC%A0%95%EA%B7%9C_%EB%B6%84%ED%8F%AC)"
+      ],
+      "full": "Gaussian Distribution",
+      "korean": "가우스 분포, 가우시안 분포",
+      "definition": "평균을 중심으로 좌우 대칭이며, 대부분의 데이터가 평균 근처에 몰리는 연속 확률 분포",
+      "oneLine": "평균을 중심으로 좌우 대칭이며, 대부분의 데이터가 평균 근처에 몰리는 연속 확률 분포",
+      "categories": [
+        "확률학"
+      ],
+      "source": "",
+      "rawTerm": "Gaussian Distribution (가우스 분포, 가우시안 분포)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 184,
+      "key": "tanh",
+      "aliases": [
+        "tanh"
+      ],
+      "full": "Hyperbolic Tangent",
+      "korean": "쌍곡탄젠트 함수",
+      "definition": "입력 값을 -1~1 범위로 압축하는 비선형 함수로, 시그모이드보다 중심이 0에 가까워 학습 안정성이 높음",
+      "oneLine": "입력 값을 -1~1 범위로 압축하는 비선형 함수로, 시그모이드보다",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [2] 신경망 시대",
+        "활성화 함수"
+      ],
+      "source": "https://wikidocs.net/152159",
+      "rawTerm": "https://wikidocs.net/152159",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 185,
+      "key": "ReLU",
+      "aliases": [
+        "ReLU"
+      ],
+      "full": "Rectified linear unit",
+      "korean": "정류 선형 유닛",
+      "definition": "입력이 0 이하일 때 0\n0 초과일 때 그대로 출력하는 함수로, 계산이 간단하고 기울기 소실 문제를 크게 완화",
+      "oneLine": "입력이 0 이하일 때 0 0 초과일 때 그대로 출력하는 함수로, 계산이 간단하고 기울기 소실 문제를 크게 완화",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "활성화 함수"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Rectified_linear_unit",
+      "rawTerm": "https://en.wikipedia.org/wiki/Rectified_linear_unit (정류 선형 유닛)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 186,
+      "key": "MLP",
+      "aliases": [
+        "MLP"
+      ],
+      "full": "Multi-Layer Perceptron",
+      "korean": "다층 퍼셉트론",
+      "definition": "여러 개의 퍼셉트론 층을 연결한 인공신경망으로, 입력을 비선형 변환하여 복잡한 함수를 근사하는 모델",
+      "oneLine": "여러 개의 퍼셉트론 층을 연결한 인공신경망으로, 입력을 비선형 변환하여 복잡한 함수를 근사하는 모델",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [2] 신경망 시대",
+        "신경망 구조"
+      ],
+      "source": "",
+      "rawTerm": "Multi-Layer Perceptron (다층 퍼셉트론)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 187,
+      "key": "SiLU",
+      "aliases": [
+        "SiLU",
+        "Swish"
+      ],
+      "full": "Sigmoid Linear Unit",
+      "korean": "시그모이드 선형 유닛",
+      "definition": "입력값에 시그모이드 값을 곱하는 부드러운 비선형 함수로, ReLU보다 매끄럽게 작은 입력도 반영할 수 있음",
+      "oneLine": "입력값에 시그모이드 값을 곱하는 부드러운 비선형 함수로, ReLU보다",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대",
+        "활성화 함수"
+      ],
+      "source": "",
+      "rawTerm": "Sigmoid Linear Unit (시그모이드 선형 유닛)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 188,
+      "key": "High-Frequency Issue",
+      "aliases": [],
+      "full": "High-Frequency Issue",
+      "korean": "",
+      "definition": "신경망이 저주파(부드러운) 성분은 잘 학습하지만, 고주파(세밀한) 성분을 학습하기 어려운 현상",
+      "oneLine": "신경망이 저주파(부드러운) 성분은 잘 학습하지만, 고주파(세밀한) 성분을 학습하기 어려운 현상",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [3] 부흥 시대"
+      ],
+      "source": "",
+      "rawTerm": "High-Frequency Issue",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 189,
+      "key": "RoPE",
+      "aliases": [
+        "RoPE"
+      ],
+      "full": "Rotary Position Embedding",
+      "korean": "",
+      "definition": "토큰 임베딩 벡터에 회전 변환을 적용해 상대적 위치 정보를 인코딩하는 방식으로, Transformer의 길이 일반화를 향상시킴",
+      "oneLine": "토큰 임베딩 벡터에 회전 변환을 적용해 상대적 위치 정보를 인코딩하는 방식으로, Transformer의 길이 일반화를 향상시킴",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [5] 초거대모델 시대",
+        "포지션 인코딩"
+      ],
+      "source": "",
+      "rawTerm": "Rotary Position Embedding",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 190,
+      "key": "Fabrication",
+      "aliases": [
+        "Fabrication",
+        "False Generation"
+      ],
+      "full": "Hallucination",
+      "korean": "환각",
+      "definition": "생성형 AI가 실제로 존재하지 않는 정보나 사실과 다른 내용을 그럴듯하게 만들어내는 현상",
+      "oneLine": "생성형 AI가 실제로 존재하지 않는 정보나 사실과 다른 내용을 그럴듯하게 만들어내는 현상",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [5] 초거대모델 시대"
+      ],
+      "source": "",
+      "rawTerm": "Hallucination (환각)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 191,
+      "key": "PEFT",
+      "aliases": [
+        "PEFT"
+      ],
+      "full": "Parameter-Efficient Fine-Tuning",
+      "korean": "파라미터 효율적 미세조정",
+      "definition": "대형 모델의 전체 파라미터를 수정하지 않고, 일부 모듈만 학습하여 효율적으로 미세 조정하는 기법",
+      "oneLine": "대형 모델의 전체 파라미터를 수정하지 않고, 일부 모듈만 학습하여 효율적으로 미세 조정하는 기법",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대",
+        "학습기법"
+      ],
+      "source": "",
+      "rawTerm": "Parameter-Efficient Fine-Tuning (파라미터 효율적 미세조정)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 192,
+      "key": "4-bit Mixed Floating Point",
+      "aliases": [
+        "4-bit Mixed Floating Point",
+        "MXFP4"
+      ],
+      "full": "Micro-scaling Floating Point",
+      "korean": "",
+      "definition": "4비트 가변 정밀도 부동소수점 형식으로, LLM 추론의 메모리 사용량을 크게 줄이면서 높은 모델 성능을 유지하도록 설계된 혼합 정밀도 포맷",
+      "oneLine": "4비트 가변 정밀도 부동소수점 형식으로, LLM 추론의 메모리 사용량을 크게 줄이면서 높은 모델 성능을 유지하도록 설계된 혼합 정밀도 포맷",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대"
+      ],
+      "source": "",
+      "rawTerm": "Micro-scaling Floating Point",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 193,
+      "key": "양자화",
+      "aliases": [],
+      "full": "Quantization",
+      "korean": "양자화",
+      "definition": "모델의 가중치나 활성값을 낮은 비트 정밀도로 변환해, 메모리 사용량과 연산 비용을 줄이는 기법",
+      "oneLine": "모델의 가중치나 활성값을 낮은 비트 정밀도로 변환해, 메모리 사용량과 연산 비용을 줄이는 기법",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대",
+        "양자화",
+        "최적화"
+      ],
+      "source": "",
+      "rawTerm": "Quantization (양자화)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 194,
+      "key": "Abs-Max Quantization",
+      "aliases": [],
+      "full": "Abs-Max Quantization",
+      "korean": "",
+      "definition": "텐서 값의 절대값 최대치를 기준으로 전체 구간을 스케일링해 양자화하는 방식",
+      "oneLine": "텐서 값의 절대값 최대치를 기준으로 전체 구간을 스케일링해 양자화하는 방식",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대",
+        "양자화"
+      ],
+      "source": "",
+      "rawTerm": "Abs-Max Quantization",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 195,
+      "key": "E2M1",
+      "aliases": [
+        "E2M1"
+      ],
+      "full": "2-bit Exponent, 1-bit Mantissa",
+      "korean": "",
+      "definition": "4비트 부동소수점 형식으로, 2비트 지수와 1비트 가수로 구성되어 초저정밀 양자화를 위한 포맷",
+      "oneLine": "4비트 부동소수점 형식으로, 2비트 지수와 1비트 가수로 구성되어 초저정밀 양자화를 위한 포맷",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대",
+        "양자화"
+      ],
+      "source": "",
+      "rawTerm": "2-bit Exponent, 1-bit Mantissa",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 196,
+      "key": "Harmony",
+      "aliases": [],
+      "full": "Harmony",
+      "korean": "",
+      "definition": "LLM이 안전하고 일관된 형태로 응답하도록 유도하는 출력 제약·포맷 설계 방식으로, 모델의 표현과 행동을 안정화하는 목적을 가짐",
+      "oneLine": "LLM이 안전하고 일관된 형태로 응답하도록 유도하는 출력 제약·포맷 설계 방식으로, 모델의 표현과 행동을 안정화하는 목적을 가짐",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대",
+        "출력규격"
+      ],
+      "source": "",
+      "rawTerm": "Harmony",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 197,
+      "key": "하모니 응답 형식",
+      "aliases": [],
+      "full": "Harmony Response Format",
+      "korean": "하모니 응답 형식",
+      "definition": "모델이 Harmony 원칙에 따라 구조화된 형태로 응답하도록 설계된 템플릿 기반 포맷으로, 안정성·일관성·재현성을 확보하기 위해 사용됨",
+      "oneLine": "모델이 Harmony 원칙에 따라 구조화된 형태로 응답하도록 설계된 템플릿 기반 포맷으로, 안정성·일관성·재현성을 확보하기 위해 사용됨",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대",
+        "출력규격"
+      ],
+      "source": "",
+      "rawTerm": "Harmony Response Format (하모니 응답 형식)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 198,
+      "key": "YaRN",
+      "aliases": [
+        "YaRN"
+      ],
+      "full": "Yet another RoPE extension",
+      "korean": "",
+      "definition": "RoPE의 스케일링 방식을 개선하여 Transformer가 훨씬 더 긴 문맥 길이를 안정적으로 처리하도록 확장하는 기법",
+      "oneLine": "RoPE의 스케일링 방식을 개선하여 Transformer가 훨씬 더 긴 문맥 길이를 안정적으로 처리하도록 확장하는 기법",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대",
+        "포지션 인코딩"
+      ],
+      "source": "",
+      "rawTerm": "Yet another RoPE extension",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 199,
+      "key": "Open-Source GPT",
+      "aliases": [
+        "Open-Source GPT"
+      ],
+      "full": "GPT-OSS",
+      "korean": "",
+      "definition": "GPT 구조와 기능을 오픈소스 방식으로 구현한 모델을 통칭하며, 다양한 연구·기업 커뮤니티에서 GPT와 유사한 LLM을 공개적으로 개발하는 흐름을 의미",
+      "oneLine": "GPT 구조와 기능을 오픈소스 방식으로 구현한 모델을 통칭하며, 다양한 연구·기업 커뮤니티에서 GPT와 유사한 LLM을 공개적으로 개발하는 흐름을 의미",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대",
+        "모델"
+      ],
+      "source": "",
+      "rawTerm": "GPT-OSS",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 200,
+      "key": "Attention Sink",
+      "aliases": [],
+      "full": "Attention Sink",
+      "korean": "",
+      "definition": "모델이 특정 토큰에 안정적으로 일정 비중의 어텐션을 두도록 하여 긴 문맥에서도 어텐션이 분산되거나 무너지는 현상을 방지하는 기법",
+      "oneLine": "모델이 특정 토큰에 안정적으로 일정 비중의 어텐션을 두도록 하여 긴 문맥에서도 어텐션이 분산되거나 무너지는 현상을 방지하는 기법",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대",
+        "어텐션"
+      ],
+      "source": "",
+      "rawTerm": "Attention Sink",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 201,
+      "key": "Local Attention",
+      "aliases": [
+        "Local Attention"
+      ],
+      "full": "Window Attention",
+      "korean": "",
+      "definition": "각 토큰이 전체가 아닌 일정 범위(윈도우)의 토큰들에만 어텐션을 주도록 하여 연산량을 줄이는 방식",
+      "oneLine": "각 토큰이 전체가 아닌 일정 범위(윈도우)의 토큰들에만 어텐션을 주도록 하여 연산량을 줄이는 방식",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "어텐션"
+      ],
+      "source": "",
+      "rawTerm": "Window Attention",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 202,
+      "key": "Sliding Attention",
+      "aliases": [
+        "Sliding Attention"
+      ],
+      "full": "Sliding Window Attention",
+      "korean": "",
+      "definition": "고정 크기의 윈도우가 시퀀스를 따라 이동하며 어텐션을 수행하는 방식으로, 긴 문맥을 효율적으로 처리할 수 있음",
+      "oneLine": "고정 크기의 윈도우가 시퀀스를 따라 이동하며 어텐션을 수행하는 방식으로, 긴 문맥을 효율적으로 처리할 수 있음",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "어텐션"
+      ],
+      "source": "",
+      "rawTerm": "Sliding Window Attention",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 203,
+      "key": "MoE",
+      "aliases": [
+        "MoE"
+      ],
+      "full": "Mixture of Experts",
+      "korean": "전문가 혼합 모델",
+      "definition": "토큰마다 더 잘 맞는 FFN을 선택해서 처리\n\n여러 개의 전문 모델(Experts) 중 일부만 선택적으로 활성화하여 연산 효율을 높이는 구조로, 대규모 모델을 가볍게 확장할 수 있게 해주는 방식",
+      "oneLine": "토큰마다 더 잘 맞는 FFN을 선택해서 처리 여러 개의 전문 모델(Experts) 중 일부만 선택적으로 활성화하여 연산 효율을 높이는 구조로, 대규모 모델을 가볍게 확장할 수 있게 해주는 방식",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [5] 초거대모델 시대",
+        "신경망 구조"
+      ],
+      "source": "",
+      "rawTerm": "Mixture of Experts (전문가 혼합 모델)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 204,
+      "key": "LoRA",
+      "aliases": [
+        "LoRA"
+      ],
+      "full": "Low-Rank Adaptation",
+      "korean": "",
+      "definition": "대형 모델의 가중치 행렬을 Low-Rank 형태로 분해해 작은 추가 파라미터만 학습하는 방식으로, 전체 모델을 재학습하지 않고도 효율적으로 미세조정할 수 있는 기법",
+      "oneLine": "대형 모델의 가중치 행렬을 Low-Rank 형태로 분해해 작은 추가 파라미터만 학습하는 방식으로, 전체 모델을 재학습하지 않고도 효율적으로 미세조정할 수 있는 기법",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대",
+        "학습기법"
+      ],
+      "source": "",
+      "rawTerm": "Low-Rank Adaptation",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 205,
+      "key": "int8 Inference",
+      "aliases": [
+        "int8 Inference",
+        "8-bit Matrix Multiplication"
+      ],
+      "full": "LLM.int8()",
+      "korean": "",
+      "definition": "대형 언어 모델의 가중치를 8비트 정밀도로 양자화해 메모리를 줄이면서도 성능 손실 없이 추론할 수 있도록 설계된 방식",
+      "oneLine": "대형 언어 모델의 가중치를 8비트 정밀도로 양자화해 메모리를 줄이면서도 성능 손실 없이 추론할 수 있도록 설계된 방식",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [5] 초거대모델 시대",
+        "양자화"
+      ],
+      "source": "",
+      "rawTerm": "LLM.int8()",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 206,
+      "key": "Gradient Checkpointing",
+      "aliases": [],
+      "full": "Gradient Checkpointing",
+      "korean": "",
+      "definition": "역전파 시 필요한 중간 활성값을 모두 저장하지 않고 일부만 저장해 메모리를 줄이고, 부족한 활성값은 역전파 과정에서 다시 계산하는 방식",
+      "oneLine": "역전파 시 필요한 중간 활성값을 모두 저장하지 않고 일부만 저장해 메모리를 줄이고, 부족한 활성값은 역전파 과정에서 다시 계산하는 방식",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "학습"
+      ],
+      "source": "",
+      "rawTerm": "Gradient Checkpointing",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 207,
+      "key": "Base Network",
+      "aliases": [
+        "Base Network"
+      ],
+      "full": "Backbone",
+      "korean": "",
+      "definition": "입력 데이터를 처리해 기본 특징을 추출하는 중심 신경망으로, 모델 전체의 기반 구조 역할을 수행",
+      "oneLine": "입력 데이터를 처리해 기본 특징을 추출하는 중심 신경망으로, 모델 전체의 기반 구조 역할을 수행",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [4] 트랜스포머 시대",
+        "신경망 구조"
+      ],
+      "source": "",
+      "rawTerm": "Backbone",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 208,
+      "key": "Two-Stream Architecture",
+      "aliases": [
+        "Two-Stream Architecture"
+      ],
+      "full": "Dual-Stream",
+      "korean": "",
+      "definition": "서로 다른 두 종류의 입력을 별도의 경로로 처리한 뒤 결합하는 구조로, 멀티모달 모델에서 자주 사용됨",
+      "oneLine": "서로 다른 두 종류의 입력을 별도의 경로로 처리한 뒤 결합하는 구조로, 멀티모달 모델에서 자주 사용됨",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대",
+        "신경망 구조"
+      ],
+      "source": "",
+      "rawTerm": "Dual-Stream",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 209,
+      "key": "환각",
+      "aliases": [],
+      "full": "Hallucination",
+      "korean": "환각",
+      "definition": "생성형 AI가 사실과 다른 내용을 그럴듯하게 만들어내거나 존재하지 않는 정보를 생성하는 현상",
+      "oneLine": "생성형 AI가 사실과 다른 내용을 그럴듯하게 만들어내거나 존재하지 않는 정보를 생성하는 현상",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [5] 초거대모델 시대"
+      ],
+      "source": "",
+      "rawTerm": "Hallucination (환각)",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": false,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 210,
+      "key": "MCP",
+      "aliases": [
+        "MCP"
+      ],
+      "full": "Model Context Protocol",
+      "korean": "",
+      "definition": "LLM이 외부 도구·데이터·서비스와 일관된 방식으로 통신하도록 설계된 개방형 표준으로, 안전하고 구조화된 도구 사용과 확장을 가능하게 하는 인터페이스 규격",
+      "oneLine": "LLM이 외부 도구·데이터·서비스와 일관된 방식으로 통신하도록 설계된 개방형 표준으로, 안전하고 구조화된 도구 사용과 확장을 가능하게 하는 인터페이스 규격",
+      "categories": [
+        "딥러닝",
+        "딥러닝 [6] 멀티모달 시대"
+      ],
+      "source": "",
+      "rawTerm": "Model Context Protocol",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    },
+    {
+      "id": 211,
+      "key": "n8n",
+      "aliases": [
+        "n8n"
+      ],
+      "full": "n8n (nodemation에서 줄인 이름)",
+      "korean": "노드 기반 워크플로 자동화 도구",
+      "definition": "앱·API·코드·AI 모델을 노드로 연결해 반복 작업과 여러 단계의 워크플로를 자동화하는 도구. 직접 호스팅하거나 클라우드로 사용할 수 있다.",
+      "oneLine": "앱·API·코드·AI 모델을 노드로 연결하는 워크플로 자동화 도구",
+      "categories": [
+        "자동화",
+        "플랫폼"
+      ],
+      "source": "https://n8n.io/press/",
+      "rawTerm": "n8n",
+      "status": "published",
+      "stability": "legacy-import",
+      "lastReviewed": "",
+      "detect": true,
+      "interviewAnswer": ""
+    }
+  ]
+}
