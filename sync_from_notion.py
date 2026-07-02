@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Notion data source -> AI 반사사전 JSON.
+"""Notion data source -> 반사사전 JSON.
 환경 변수: NOTION_TOKEN, NOTION_DATA_SOURCE_ID
 선택: OUTPUT_PATH, GLOSSARY_VERSION
 """
-import json, os, urllib.request
+import json, os, re, urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -39,6 +39,28 @@ def get(props,*names):
             if v is not None and str(v).strip():return str(v).strip()
     return ''
 def split(s): return [x.strip() for x in str(s or '').replace(';',',').split(',') if x.strip()]
+def uniq(items):
+    out=[];seen=set()
+    for item in items:
+        v=' '.join(str(item or '').split()).strip();k=v.casefold()
+        if v and k not in seen:seen.add(k);out.append(v)
+    return out
+
+def split_bilingual(term):
+    """Transformer (트랜스포머) -> ('Transformer', '트랜스포머').
+    마지막 괄호 안에 한글이 있을 때만 분리해 일반 영문 괄호 표기를 훼손하지 않습니다.
+    """
+    raw=' '.join(str(term or '').split()).strip()
+    m=re.match(r'^(.*?)\s*\(([^()]*(?:[가-힣])[^()]*)\)\s*$',raw)
+    if not m:return raw,''
+    return m.group(1).strip(),m.group(2).strip()
+
+def normalize_aliases(values):
+    out=[]
+    for item in values:
+        base,ko=split_bilingual(item)
+        out.extend([base,ko])
+    return uniq(out)
 
 def main():
     pages=[]; cursor=None
@@ -53,11 +75,20 @@ def main():
         props=page.get('properties',{})
         status=get(props,'상태','Status') or 'published'
         if status not in {'published','공개','검수 완료'}:continue
-        aliases=split(get(props,'약어·별칭','Aliases','약어'))
-        full=get(props,'풀네임','Full name','Term')
-        korean=get(props,'한국어 이름','Korean')
-        key=aliases[0] if aliases else (korean or full)
+
+        raw_term=get(props,'풀네임','Full name','Term')
+        full_from_term,korean_from_term=split_bilingual(raw_term)
+        aliases=normalize_aliases(split(get(props,'약어·별칭','Aliases','약어')))
+        explicit_korean=get(props,'한국어 이름','Korean')
+        korean=explicit_korean or korean_from_term
+        full=full_from_term or raw_term
+        key=aliases[0] if aliases else full
         if not key:continue
+
+        # 괄호 병기에서 분리된 한글명도 별칭으로 보존해 한글 감지가 가능하게 합니다.
+        aliases=uniq(aliases+([korean] if korean else []))
+        aliases=[a for a in aliases if a.casefold()!=key.casefold()]
+
         entries.append({
             'id':page.get('id'),
             'key':key,
@@ -75,7 +106,7 @@ def main():
             'detect':get(props,'자동 감지','Detect').lower() not in {'false','0','아니오','no'},
             'interviewAnswer':get(props,'면접 답변','Interview answer')
         })
-    data={'schemaVersion':1,'version':VERSION,'publishedAt':datetime.now(timezone.utc).isoformat(),'releaseNotes':[], 'entries':entries}
+    data={'schemaVersion':1,'version':VERSION,'publishedAt':datetime.now(timezone.utc).isoformat(),'releaseNotes':['영문명 (한글명) 자동 분리 및 감지 개선'], 'entries':entries}
     OUT.parent.mkdir(parents=True,exist_ok=True);OUT.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
     print(f'{len(entries)}개 공개 항목 -> {OUT}')
 if __name__=='__main__':main()
